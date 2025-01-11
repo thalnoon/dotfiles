@@ -1,0 +1,16 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=/mnt/win-noon/Documents/النحو الشافي_new.pdf
+Name1[$e]=النحو الشافي_new.pdf
+
+[UiSettings]
+ColorScheme=Breeze Dark

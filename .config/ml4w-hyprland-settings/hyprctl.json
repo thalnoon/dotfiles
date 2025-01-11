@@ -1,0 +1,30 @@
+[
+    {
+        "key": "general:no_border_on_floating",
+        "value": false
+    },
+    {
+        "key": "general:gaps_out",
+        "value": 8
+    },
+    {
+        "key": "decoration:rounding",
+        "value": 4
+    },
+    {
+        "key": "decoration:shadow:enabled",
+        "value": false
+    },
+    {
+        "key": "general:col.inactive_border",
+        "value": "rgb(ffffff)"
+    },
+    {
+        "key": "general:border_size",
+        "value": 2
+    },
+    {
+        "key": "general:gaps_in",
+        "value": 4
+    }
+]

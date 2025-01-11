@@ -1,0 +1,11 @@
+[manager]
+show_hidden = true
+
+[opener]
+edit = [
+	{ run = '$EDITOR "$@"', block = true, for = "unix" },
+	{ run = "%EDITOR% %*",  block = true, for = "windows" },
+]
+play = [
+  { run = 'mpv "$@"', orphan = true, for = "unix" },
+]

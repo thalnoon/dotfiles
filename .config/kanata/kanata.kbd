@@ -1,0 +1,210 @@
+(defcfg
+process-unmapped-keys yes
+)
+
+(defalias 
+  l_qw (layer-switch base)
+  l_dh (layer-switch colemak)
+)
+
+(defalias
+  cpy C-c
+  pst C-v
+  cut C-x
+  udo C-z
+  all C-a
+  fnd C-f
+  ;;bk Back
+  ;;fw Forward
+  wfw C-right
+  wbk C-left
+)
+
+
+(defalias
+  ext  (layer-toggle extend) ;; Bind 'ext' to the Extend Layer
+  sym  (layer-toggle sym)
+  ;;a_met (tap-hold 200 a lmet)
+  ;;s_alt (tap-hold 200 s lalt)
+  ;;d_ctl (tap-hold 200 d lctl)
+  ;;f_sft (tap-hold 200 f lsft)
+  ;;j_sft (tap-hold 200 j rsft)
+  ;;k_ctl (tap-hold 200 k rctl)
+  ;;l_alt (tap-hold 200 l ralt)
+  ;;sem_met (tap-hold 200 ; lmet)
+  s_ S--
+  s{ S-[
+  s} S-]
+  ;;s{ S-[
+  tfd (macro A-(tab 200 tab 200 tab))
+  tbk (macro A-S-(tab 200 tab 200 tab))
+  tb A-tab
+  sa C-a
+  mu (mwheel-up 100 240)
+  md (mwheel-down 100 240)
+)
+
+(defalias
+  os2 (one-shot-press 500 lctl)
+  sc (tap-hold 0 200 @os2 lsft)
+)
+
+(defalias
+  s! S-1
+  s@ S-2
+  s# S-3
+  s$ S-4
+  s% S-5
+  s^ S-6
+  s& S-7
+  s* S-8
+  sb S-9
+  sp S-0
+)
+(defvar
+  ;; Note: consider using different time values for your different fingers.
+  ;; For example, your pinkies might be slower to release keys and index
+  ;; fingers faster.
+  tap-time 200
+  hold-time 130
+
+  left-hand-keys (
+    q w e r t
+    a s d f g
+    z x c v b
+  )
+  right-hand-keys (
+    y u i o p
+    h j k l ;
+    n m , . /
+  )
+  full-hand-keys (
+    q w e r t y u i o p
+    a s d f g h j k l ;
+    z x c v b n m , . /
+  )
+)
+
+(deffakekeys
+  to-base (layer-switch base)
+)
+
+(deffakekeys
+  to-colemak (layer-switch colemak)
+)
+
+(defalias
+  tap (multi
+    (layer-switch nomods)
+    (on-idle-fakekey to-base tap 20)
+  )
+
+  z (tap-hold-release-keys $tap-time $hold-time (multi z @tap) lctl $left-hand-keys)
+  x (tap-hold-release-keys $tap-time $hold-time (multi x @tap) lalt $left-hand-keys)
+  c (tap-hold-release-keys $tap-time $hold-time (multi c @tap) lsft $left-hand-keys)
+  v (tap-hold-release-keys $tap-time $hold-time (multi v @tap) lmet $left-hand-keys)
+  ;;spc (tap-hold-release-keys $tap-time $hold-time (multi spc @tap) (layer-toggle sym) $full-hand-keys)
+  . (tap-hold-release-keys $tap-time $hold-time (multi . @tap) ralt $right-hand-keys)
+  , (tap-hold-release-keys $tap-time $hold-time (multi , @tap) rsft $right-hand-keys)
+  m (tap-hold-release-keys $tap-time $hold-time (multi m @tap) rmet $right-hand-keys)
+  / (tap-hold-release-keys $tap-time $hold-time (multi / @tap) rctl $right-hand-keys)
+)
+
+
+(defalias
+  tapc (multi
+    (layer-switch colemak_nomods)
+    (on-idle-fakekey to-colemak tap 20)
+  )
+
+  zc (tap-hold-release-keys $tap-time $hold-time (multi z @tapc) lctl $left-hand-keys)
+  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lalt $left-hand-keys)
+  cc (tap-hold-release-keys $tap-time $hold-time (multi c @tapc) lsft $left-hand-keys)
+  dc (tap-hold-release-keys $tap-time $hold-time (multi d @tapc) lmet $left-hand-keys)
+  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) ralt $right-hand-keys)
+  ,c (tap-hold-release-keys $tap-time $hold-time (multi , @tapc) rsft $right-hand-keys)
+  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) rmet $right-hand-keys)
+  /c (tap-hold-release-keys $tap-time $hold-time (multi / @tapc) rctl $right-hand-keys)
+)
+
+
+
+(defalias
+    ;;asym   (tap-hold 200 200 ralt @sym)
+    sspc   (tap-hold 150 150 spc @sym)
+)
+
+(defsrc
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  caps a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+  lsft 102d z    x    c    v    b    n    m    ,    .    /    rsft            up         kp1  kp2  kp3  kprt lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
+)
+
+(deflayer base
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  @ext a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+  lsft 102d @z    @x    @c    @v    b    n    @m    @,    @.    @/    rsft            up         kp1  kp2  kp3  kprt
+  lctl lmet lalt           @sspc                 @ext rmet cmp  rctl       left down rght  kp0  kp.
+)
+
+(deflayer colemak
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  tab  q    w    f    p    k    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  @ext a    r    s    t    g    m    n    e    i    o    '    \                          kp4  kp5  kp6
+  lsft / @zc    @xc    @cc    @dc    b    v    @hc    @,c    @.c    @/c    rsft            up         kp1  kp2  kp3  kprt
+  lctl lmet lalt           @sspc                 @ext rmet cmp  rctl       left down rght  kp0  kp.
+)
+;;(deflayer qwerty
+;;  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+;;  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+;;  tab  q    w    e    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+;;  @ext a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+;;  lsft 102d @z    @x    c    v    b    n    m    ,    @.    @/   rsft            up         kp1  kp2  kp3  kprt
+;;  lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
+;;)
+(deflayer nomods
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  caps a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+  lsft 102d z    x    c    v    b    n    m    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
+  lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
+)
+(deflayer colemak_nomods
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  tab  q    w    f    p    k    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  @ext a    r    s    t    g    m    n    e    i    o    '    \                          kp4  kp5  kp6
+  lsft / z    x    c    d    b    v    h    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
+  lctl lmet lalt           @sspc                 @ext rmet cmp  rctl       left down rght  kp0  kp.
+)
+
+;;(deflayer extend
+;;  _        play rewind previoussong nextsong ejectcd refresh brdn brup www mail prog1 prog2
+;;  _        f1   f2   f3   f4   f5   f6   f7   f8   @s(   @s)  f11  f12  _
+;;  _        esc  #    @wbk  @wfw  ins  home {    up   }    end esc slck
+;;  _        @    $    !    @fnd ralt [    lft  down rght ]    caps _    _
+;;  _    _     @udo    @cut    @cpy    @pst    _    -    \_    =    +    _    _
+;;  _        _    _               ret            _    _    _    _
+;;)
+(deflayer extend
+   _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
+  _    f1   f2   f3   f4   f5   f6   f7   f8   @sb   @sp  f11  f12     _     _    _    _    _    _    _    _
+  @tb    esc  @mu    @wbk  @wfw  ins  home @s{    up   @s}    end esc slck    _     _    _    _    _    _    _    _
+  _    @sa    @md    @fnd    @fnd ralt [    lft  down rght ]    caps    _                         _    _    _
+  _    _    @udo    @cut    @cpy    @pst    _    -    @s_    =    +    _    _               _         _    _    _    _
+  _    _    _              _                   _    _    _    _          _    _    _    _    _
+)
+(deflayer sym
+  _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
+  _    @l_qw    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
+  _    @s%  @s^   @s&    @s*    _    _    @s!    @s@    @s#    @s$    _    _                         _    _    _
+  _    _    _    _    @l_dh    _    _    _    _    _    _    _    _               _         _    _    _    _
+  _    _    _              _                   _    _    _    _          _    _    _    _    _
+)

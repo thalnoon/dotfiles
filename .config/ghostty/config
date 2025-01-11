@@ -1,0 +1,21 @@
+
+
+## Window
+window-decoration = false
+gtk-tabs-location= hidden
+mouse-hide-while-typing = true
+window-padding-x = 8
+window-padding-y = 8
+
+confirm-close-surface = false
+
+## Clipboard
+clipboard-read = "allow"
+clipboard-paste-protection = false
+
+## Theme
+theme = GruvboxDark
+font-size = 15
+
+##adjust-cell-width = 11%
+##adjust-cell-height = 20%
