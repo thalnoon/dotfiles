@@ -14,7 +14,7 @@ clipboard-read = "allow"
 clipboard-paste-protection = false
 
 ## Theme
-theme = GruvboxDark
+theme = GruvboxDarkHard
 font-size = 15
 
 ##adjust-cell-width = 11%

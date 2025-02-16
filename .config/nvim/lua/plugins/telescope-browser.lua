@@ -1,5 +1,6 @@
 return {
   "nvim-telescope/telescope-file-browser.nvim",
+  enabled = false,
   dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
   config = function()
     local picker = require("telescope._extensions.file_browser")

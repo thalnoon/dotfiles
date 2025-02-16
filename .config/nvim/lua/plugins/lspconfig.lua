@@ -10,4 +10,5 @@ return {
       formatterMode = "typstyle",
     },
   }),
+  require("lspconfig").kotlin_language_server.setup({}),
 }

@@ -1,0 +1,3145 @@
+[
+{
+  "Time": "2025-02-04T22:57:27.8835412+02:00",
+  "Group": "RootHub",
+  "Message": "Initialized internal child hubs: HidSharpDeviceRootHub",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9709772+02:00",
+  "Group": "Detect",
+  "Message": "Searching for tablets...",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9728529+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul A1201' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9921434+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul D16 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922411+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922578+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM116HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922645+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM156HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922705+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922768+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922855+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1220' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922934+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1230' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9922995+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M6' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.992314+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9923197+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD156 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9923259+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1561' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.992332+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9967958+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S620' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9968458+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S630' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9968519+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S830' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9968603+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9968705+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9968772+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9968841+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H320M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.996892+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969092+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969196+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969291+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969367+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969447+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969526+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H642' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969626+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969694+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HC16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969754+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969815+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS611' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9969957+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.997003+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS95' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970087+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970145+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.99702+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16 (2021)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970282+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970344+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970468+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.997053+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 24 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970586+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970644+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970715+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970779+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970844+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.99709+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 Plus (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9970959+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971231+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24 (4K)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971306+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971419+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971527+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q620M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971776+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RDS-160' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971856+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTM-500' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9971919+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTP-700' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:28.9972635+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul A1201' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0539792+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul D16 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.055096+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0558454+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM116HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.056938+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM156HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0578477+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0588617+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.059919+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1220' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.060868+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1230' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0618197+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M6' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0629736+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0642348+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD156 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0655386+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1561' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0685837+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0688025+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S620' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0702401+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S630' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0711949+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S830' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.072312+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0734423+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.074588+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0756818+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H320M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0765917+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0777157+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0785846+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0794652+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0803048+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0812457+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0827313+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H642' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0835824+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.084535+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HC16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0853907+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0863+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS611' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0871701+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0880173+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS95' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.08885+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0896938+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.0908213+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16 (2021)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1230779+02:00",
+  "Group": "Detect",
+  "Message": "Found 'Huion Kamvas 16 (2021)' digitizer: 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1231536+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul A1201' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1766774+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul D16 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1767381+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1767483+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM116HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1767684+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM156HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1767949+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768027+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768129+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1220' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768193+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1230' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768259+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M6' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768395+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768515+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD156 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768579+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1561' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768649+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768722+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S620' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768787+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S630' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768841+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S830' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768921+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1768985+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769051+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769123+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H320M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769192+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769255+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769335+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769412+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.176948+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769561+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769627+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H642' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769706+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769781+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HC16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769854+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1769928+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS611' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770003+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770082+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS95' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770141+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770204+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770283+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16 (2021)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770355+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770426+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.177049+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770558+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 24 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770623+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770697+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770788+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770855+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1770938+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771002+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 Plus (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771082+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771145+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24 (4K)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771211+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771274+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771341+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q620M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771401+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RDS-160' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771468+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTM-500' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.1771534+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTP-700' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.179751+02:00",
+  "Group": "Detect",
+  "Message": "Found tablet 'Huion Kamvas 16 (2021)'",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.2436891+02:00",
+  "Group": "Device",
+  "Message": "Initializing device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.244025+02:00",
+  "Group": "Device",
+  "Message": "Using report parser type 'OpenTabletDriver.Configurations.Parsers.Huion.GianoReportParser'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.2452917+02:00",
+  "Group": "Device",
+  "Message": "Initialized string index 200",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.2839162+02:00",
+  "Group": "Evdev",
+  "Message": "Successfully initialized virtual pressure sensitive tablet. (code NONE)",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.298142+02:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Input: [344.2x193.6@<172.1, 96.8>:0°]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3012228+02:00",
+  "Group": "LinuxArtistMode",
+  "Message": "Output: [1920x1080@<960, 540>]",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3025706+02:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockAspectRatio: False",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3027376+02:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaClipping: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3028361+02:00",
+  "Group": "LinuxArtistMode",
+  "Message": "AreaLimiting: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3029242+02:00",
+  "Group": "LinuxArtistMode",
+  "Message": "LockToBounds: True",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3094803+02:00",
+  "Group": "Huion Kamvas 16 (2021)",
+  "Message": "Output mode: Artist Mode",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3213665+02:00",
+  "Group": "MouseBinding",
+  "Message": "Button: Left",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:29.3261042+02:00",
+  "Group": "Settings",
+  "Message": "Driver is enabled.",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:34.5901973+02:00",
+  "Group": "HidSharpDeviceRootHub",
+  "Message": "Changes: 2, Add: 0, Remove: 2",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T22:57:34.6966999+02:00",
+  "Group": "RootHub",
+  "Message": "Invoking DevicesChanged",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6526845+02:00",
+  "Group": "DriverDaemon",
+  "Message": "Sleep detected...",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6562345+02:00",
+  "Group": "Detect",
+  "Message": "Searching for tablets...",
+  "StackTrace": null,
+  "Level": 1,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6563605+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul A1201' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6564025+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul D16 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6564212+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6564358+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM116HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6564482+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM156HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6564637+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.656476+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.656488+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1220' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6565004+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1230' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6565104+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M6' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6565189+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6565291+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD156 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6565365+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1561' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6565439+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6625754+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6853843+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S620' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6854234+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S630' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.685444+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S830' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6854635+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6854769+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6854897+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6855+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H320M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6855097+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.685518+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6855392+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6855503+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6855768+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6855988+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856065+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H642' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.685617+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856361+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HC16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856459+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856514+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS611' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856574+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856638+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS95' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856696+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856751+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856806+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16 (2021)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856899+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6856958+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.685701+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857064+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 24 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857116+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857172+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857233+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857334+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857405+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857474+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 Plus (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857531+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857595+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24 (4K)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857654+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857711+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857763+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q620M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857813+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RDS-160' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857868+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTM-500' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6857922+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTP-700' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.2/0003:256C:006D.000A/hidraw/hidraw7)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6858086+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul A1201' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6865455+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6868292+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul D16 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6876318+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6877672+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6883044+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6884307+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM116HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6891764+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6901206+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM156HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6907953+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6909454+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6915177+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.6916534+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7034418+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7060971+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1220' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7083771+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7115479+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1230' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7131678+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7142327+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M6' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7151394+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7161105+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7166821+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7168103+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD156 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.717306+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7173869+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1561' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7178666+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7179546+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7179663+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S620' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7184507+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7185311+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S630' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7217951+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.725542+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S830' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7266802+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7291983+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.736135+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7367262+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7378684+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7396174+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7413624+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7415211+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H320M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7419389+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7420119+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7424493+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.742529+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.742984+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7430608+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7452403+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7462031+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7473135+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7494603+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7504841+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7511228+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.752015+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7528129+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7529193+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H642' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7538539+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7556799+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7572767+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7643089+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HC16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7651403+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.765282+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7705133+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.776976+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS611' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7776279+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7777985+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7808983+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7873354+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS95' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7882918+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7888261+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7896058+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.789713+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7901662+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7902466+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16 (2021)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7907168+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7907984+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7912592+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7913543+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7918115+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7918919+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7932498+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7940042+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 24 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7950959+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7966465+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.7996783+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8028135+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.803712+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8100288+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.811591+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8150462+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8162668+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8170425+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8171952+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.817748+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8178895+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 Plus (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8184573+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8185955+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8225515+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8237206+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8242846+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24 (4K)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8250468+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8257674+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8266256+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8271361+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8279956+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8285185+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q620M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8293589+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.829817+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RDS-160' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8331651+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8339308+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTM-500' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8346264+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.834749+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTP-700' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8352592+02:00",
+  "Group": "DeviceIOException",
+  "Message": "Unable to retrieve device's supported langId: EBADF",
+  "StackTrace": "   at HidSharp.Platform.Linux.LinuxHidDevice.GetDeviceString(Int32 index)\n   at OpenTabletDriver.Devices.HidSharpBackend.HidSharpEndpoint.GetDeviceString(Byte index) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Devices/HidSharpBackend/HidSharpEndpoint.cs:line 34\n   at OpenTabletDriver.Driver.DeviceMatchesStrings(IDeviceEndpoint device, IDictionary`2 deviceStrings) in /home/noon/.cache/yay/opentabletdriver-git/src/OpenTabletDriver/OpenTabletDriver/Driver.cs:line 252",
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8353626+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul A1201' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.835375+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Artisul D16 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8353821+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon 1060 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.835392+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM116HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8353979+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon GM156HD' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354038+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M106K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354092+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M10K Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354149+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1220' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354205+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M1230' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354284+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon M6' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354369+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354432+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD156 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354488+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon PD1561' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354552+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S56K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354615+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S620' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354673+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S630' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354728+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Gaomon S830' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.835479+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion GC610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354856+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1060P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8354941+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H1161' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355009+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H320M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355063+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H420X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355117+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H430P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355178+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro V2' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355239+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610 Pro' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355311+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H610X' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355373+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H640P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355442+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H642' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355497+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion H950P' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355564+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HC16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355634+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS610' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355691+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS611' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8355753+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS64' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8373238+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion HS95' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375078+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375218+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.837529+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16 (2021)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375347+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375398+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.837546+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 22' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375516+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas 24 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375586+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 12' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375642+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375697+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 13' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375754+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (2.5k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375815+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375876+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16 Plus (4k)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375934+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 16' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8375999+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Kamvas Pro 24 (4K)' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8376076+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion New 1060 Plus' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8376145+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q11K' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8376213+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion Q620M' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8376277+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RDS-160' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8376336+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTM-500' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8376421+02:00",
+  "Group": "Detect",
+  "Message": "Attempting to match config 'Huion RTP-700' to device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:256C:006D.0009/hidraw/hidraw6)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8404831+02:00",
+  "Group": "Device",
+  "Message": "Initializing device 'Huion Tablet_GS1562 (/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.0/0003:256C:006D.0008/hidraw/hidraw5)'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},
+{
+  "Time": "2025-02-04T23:34:25.8405169+02:00",
+  "Group": "Device",
+  "Message": "Using report parser type 'OpenTabletDriver.Configurations.Parsers.Huion.GianoReportParser'",
+  "StackTrace": null,
+  "Level": 0,
+  "Notification": false
+},

@@ -3,6 +3,7 @@ return {
   {
     -- Install markdown preview, use npx if available.
     "iamcco/markdown-preview.nvim",
+    enabled = true,
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
     ft = { "markdown" },
     build = function(plugin)
@@ -25,7 +26,7 @@ return {
   },
   {
     "meanderingprogrammer/render-markdown.nvim",
-    enabled = true,
+    enabled = false,
     init = function()
       local colors = require("config.colors").load_colors()
 
@@ -111,21 +112,31 @@ return {
     "OXY2DEV/markview.nvim",
     lazy = false, -- Recommended
     -- ft = "markdown" -- If you decide to lazy-load anyway
-    enabled = false,
+    enabled = true,
     dependencies = {
       "nvim-treesitter/nvim-treesitter",
       "nvim-tree/nvim-web-devicons",
     },
     config = function()
-      local presets = require("markview.presets").checkboxes
+      local presets = require("markview.presets")
       require("markview").setup({
-        checkboxes = presets.nerd,
-        headings = {
-          enable = true,
-          shift_width = 0,
+        markdown = {
+          headings = presets.headings.glow,
         },
-        list_items = {
-          shift_width = 2,
+      })
+      require("markview").setup({
+        markdown_inline = {
+          checkboxes = presets.nerd,
+        },
+        markdown = {
+          headings = {
+            enable = true,
+            shift_width = 0,
+          },
+          list_items = {
+            enable = false,
+            shift_width = 1,
+          },
         },
       })
     end,
@@ -137,28 +148,6 @@ return {
     opts = {
       linters_by_ft = {
         markdown = { "markdownlint-cli2" },
-      },
-    },
-  },
-  {
-    "stevearc/conform.nvim",
-    optional = true,
-    opts = {
-      formatters = {
-        ["markdown-toc"] = {
-          condition = function(_, ctx)
-            for _, line in ipairs(vim.api.nvim_buf_get_lines(ctx.buf, 0, -1, false)) do
-              if line:find("<!%-%- toc %-%->") then
-                return true
-              end
-            end
-          end,
-        },
-      },
-      formatters_by_ft = {
-        ["markdown"] = { "markdown-toc" },
-        ["markdown.mdx"] = { "markdown-toc" },
-        ["typst"] = { "typstfmt" },
       },
     },
   },

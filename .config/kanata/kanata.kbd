@@ -60,6 +60,8 @@ process-unmapped-keys yes
   s* S-8
   sb S-9
   sp S-0
+  sau (unicode ↑)
+  sad (unicode ↓)
 )
 (defvar
   ;; Note: consider using different time values for your different fingers.
@@ -73,15 +75,31 @@ process-unmapped-keys yes
     a s d f g
     z x c v b
   )
+  left-hand-keys-col (
+    q w f p k
+    a r s t g
+    z x c d b
+  )
   right-hand-keys (
     y u i o p
     h j k l ;
     n m , . /
   )
+
+  right-hand-keys-col (
+    j l u y ;
+    m n e i o
+    v h , . /
+  )
   full-hand-keys (
     q w e r t y u i o p
     a s d f g h j k l ;
     z x c v b n m , . /
+  )
+  full-hand-keys-col (
+    q w f p k j l u y ;
+    a r s t g m n e i o
+    z x c d b v h , . /
   )
 )
 
@@ -103,6 +121,7 @@ process-unmapped-keys yes
   x (tap-hold-release-keys $tap-time $hold-time (multi x @tap) lalt $left-hand-keys)
   c (tap-hold-release-keys $tap-time $hold-time (multi c @tap) lsft $left-hand-keys)
   v (tap-hold-release-keys $tap-time $hold-time (multi v @tap) lmet $left-hand-keys)
+  ;;shif (tap-hold-release $tap-time $hold-time (multi esc @tap) @csk)
   ;;spc (tap-hold-release-keys $tap-time $hold-time (multi spc @tap) (layer-toggle sym) $full-hand-keys)
   . (tap-hold-release-keys $tap-time $hold-time (multi . @tap) ralt $right-hand-keys)
   , (tap-hold-release-keys $tap-time $hold-time (multi , @tap) rsft $right-hand-keys)
@@ -117,14 +136,16 @@ process-unmapped-keys yes
     (on-idle-fakekey to-colemak tap 20)
   )
 
-  zc (tap-hold-release-keys $tap-time $hold-time (multi z @tapc) lctl $left-hand-keys)
-  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lalt $left-hand-keys)
-  cc (tap-hold-release-keys $tap-time $hold-time (multi c @tapc) lsft $left-hand-keys)
-  dc (tap-hold-release-keys $tap-time $hold-time (multi d @tapc) lmet $left-hand-keys)
-  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) ralt $right-hand-keys)
-  ,c (tap-hold-release-keys $tap-time $hold-time (multi , @tapc) rsft $right-hand-keys)
-  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) rmet $right-hand-keys)
-  /c (tap-hold-release-keys $tap-time $hold-time (multi / @tapc) rctl $right-hand-keys)
+  zc (tap-hold-release-keys $tap-time $hold-time (multi z @tapc) lctl $left-hand-keys-col)
+  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lalt $left-hand-keys-col)
+  cc (tap-hold-release-keys $tap-time $hold-time (multi c @tapc) lsft $left-hand-keys-col)
+  dc (tap-hold-release-keys $tap-time $hold-time (multi d @tapc) lmet $left-hand-keys-col)
+
+  ;;shifc (tap-hold-release $tap-time $hold-time (multi esc @tapc) @csk)
+  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) ralt $right-hand-keys-col)
+  ,c (tap-hold-release-keys $tap-time $hold-time (multi , @tapc) rsft $right-hand-keys-col)
+  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) rmet $right-hand-keys-col)
+  /c (tap-hold-release-keys $tap-time $hold-time (multi / @tapc) rctl $right-hand-keys-col)
 )
 
 
@@ -179,9 +200,9 @@ process-unmapped-keys yes
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    f    p    k    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  @ext a    r    s    t    g    m    n    e    i    o    '    \                          kp4  kp5  kp6
+  caps a    r    s    t    g    m    n    e    i    o    '    \                          kp4  kp5  kp6
   lsft / z    x    c    d    b    v    h    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
-  lctl lmet lalt           @sspc                 @ext rmet cmp  rctl       left down rght  kp0  kp.
+  lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
 )
 
 ;;(deflayer extend
@@ -204,7 +225,7 @@ process-unmapped-keys yes
   _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
   _    @l_qw    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
-  _    @s%  @s^   @s&    @s*    _    _    @s!    @s@    @s#    @s$    _    _                         _    _    _
+  _    @s%  @s^   @s&    @s*    @sad    @sau    @s!    @s@    @s#    @s$    _    _                         _    _    _
   _    _    _    _    @l_dh    _    _    _    _    _    _    _    _               _         _    _    _    _
   _    _    _              _                   _    _    _    _          _    _    _    _    _
 )

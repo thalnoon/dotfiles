@@ -1,7 +1,7 @@
 return {
   "hrsh7th/nvim-cmp",
 
-  dependencies = { "saadparwaiz1/cmp_luasnip", "hrsh7th/cmp-cmdline", "hrsh7th/cmp-path" },
+  dependencies = { "saadparwaiz1/cmp_luasnip", "hrsh7th/cmp-cmdline", "hrsh7th/cmp-path", "chrisgrieser/cmp-nerdfont" },
   opts = function(_, opts)
     local cmp = require("cmp")
     table.insert(opts.sources, { name = "neorg" })
@@ -14,6 +14,7 @@ return {
       end,
     }
     table.insert(opts.sources, { name = "luasnip" })
+    table.insert(opts.sources, { name = "nerdfont" })
     -- `:` cmdline setup.
     cmp.setup.cmdline(":", {
       mapping = cmp.mapping.preset.cmdline(),

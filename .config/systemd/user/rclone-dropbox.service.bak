@@ -1,0 +1,18 @@
+[Unit]
+Description=Rclone Dropbox Mount
+After=network-online.target
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/rclone mount \
+  dropbox: /home/noon/dropbox-mount \
+  --allow-other \
+  --vfs-cache-mode full
+
+ExecStop=/bin/fusermount -u /home/noon/dropbox-mount
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+
+

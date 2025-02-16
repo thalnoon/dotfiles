@@ -14,6 +14,8 @@ vim.filetype.add({
   pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
 })
 
+vim.g.oh_lucy_transparent_background = false
+
 -- vim.o.shell = '"C:\\Program Files\\PowerShell\\7\\pwsh.exe"'
 -- vim.o.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command 2>$null"
 -- vim.o.shellredir = "2>&1 | Out-File -Encoding UTF8 %s; exit $LastExitCode"

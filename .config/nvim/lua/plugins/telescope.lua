@@ -10,6 +10,7 @@ local telescope_ignore_patterns = {
 }
 return {
   "nvim-telescope/telescope.nvim",
+  enabled = false,
   -- or                              , branch = '0.1.x',
   dependencies = { "nvim-lua/plenary.nvim" },
 

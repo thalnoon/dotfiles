@@ -1,0 +1,13 @@
+[dropbox]
+type = dropbox
+token = {"access_token":"sl.CFLfPhnlTHnXulo3RWeOCKPWITXoz4OWno1ZT38x7NHklfo8NqHp7q3dkjiOJt46Il1I8dIXYV8VYjSivdSkp_t6nhnAKUsB2tVwxjBORmGDIYJ8hKfDtihY2DPpab2vvcVq-kXOqnmpeNk","token_type":"bearer","refresh_token":"voKNOIoBgN4AAAAAAAAAAXOT2waqqbK0ybCX5nvdDigT8XWV7QEz8fbGOvsyufw6","expiry":"2025-01-25T09:27:10.108298739+02:00"}
+
+[gdrive2]
+type = drive
+client_id = 81549597510-t1umchtn88k0epu031ni1gbq1jh2nvc2.apps.googleusercontent.com
+client_secret = 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
+scope = drive.appfolder
+root_folder_id = appDataFolder
+token = {"access_token":"ya29.a0AXeO80ScvQPHdcmFnqT4rcQKd2tFiG8eUtpzn4kU59I5QKfSGiHhRSyCGvSZzZjCCdpb4luPpNB32w9_nt2V-eEU0CVkzxC4DJTeIS5io7PZJHwUhRrPpKEwuqEdTxZuhPKrkd1m_ircwVysNPw5T_ekXmE2RyLUXiO4xulTaCgYKAdMSAQ8SFQHGX2MixmIknuZYhv40J0CHCZt3YQ0175","token_type":"Bearer","refresh_token":"1//031SL9F5bHrLuCgYIARAAGAMSNwF-L9IrcFTih8aZ0ApBaBBbUGU3aXUhuoFg0Lxa_sb-6c6XUYeMF1AyfdaJ_LduiP881KU6b5E","expiry":"2025-01-25T06:26:50.009820082+02:00"}
+team_drive = 
+

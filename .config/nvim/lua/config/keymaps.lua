@@ -18,6 +18,7 @@ local set = vim.keymap.set -- for conciseness
 set("n", "<leader>ntl", "<CMD>set background=light<CR>", { desc = "Switch to light mode" })
 set("n", "<leader>ntd", "<CMD>set background=dark<CR>", { desc = "Switch to dark mode" })
 set("n", "<leader>tt", "<CMD>term<CR>", { desc = "Switch to dark mode" })
+set("n", "x", '"_x')
 
 local opts = { noremap = true, silent = true }
 
@@ -27,7 +28,6 @@ set("i", "<A-t>", "<C-t>", { desc = "Exit insert mode with jk" })
 set("n", "<C-e>", "<C-d>", { desc = "Move down in page" })
 set("t", "<ESC>", "<C-\\><C-N>", { desc = "Exit terminal mode" })
 set("i", "nn", "<ESC>", { desc = "Exit insert mode with nn" })
-set("n", "<C-a>", "gg<S-v>G", { desc = "Select all text of the document" })
 set({ "n", "i" }, "<C-q>", "<CMD>q<CR>", { desc = "Exit Neovim" })
 set({ "n", "i" }, "<C-x>", function()
   Snacks.bufdelete()
@@ -36,12 +36,11 @@ set("n", "<C-y>", "yyp")
 
 -- clear search highlights
 set("n", "<leader>ch", ":nohl<CR>", { desc = "Clear search highlights" })
-set("n", "W", "b")
-set("n", "#", "I")
+-- set("n", "W", "b")
 
 -- increment/decrement numbers
-set("n", "<leader>=", "<C-a>", { desc = "Increment number" })
-set("n", "<leader>-", "<C-x>", { desc = "Decrement number" })
+set("n", "=", "<C-a>", { desc = "Increment number" })
+set("n", "-", "<C-x>", { desc = "Decrement number" })
 
 vim.keymap.set("n", "gf", function()
   if require("obsidian").util.cursor_on_markdown_link() then
@@ -76,18 +75,18 @@ function wrap_with(start_char, end_char)
 end
 
 -- Keymaps for Wrapping with Specific Characters
-vim.api.nvim_set_keymap("v", "((", ':lua wrap_with("((", "))")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<leader>ml", ':lua wrap_with("[[", "]]")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "{{", ':lua wrap_with("{{", "}}")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<<", ':lua wrap_with("<<", ">>")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<C-b>", ':lua wrap_with("**", "**")<CR>', { noremap = true, silent = true })
---vim.api.nvim_set_keymap("v", "<C-i>", ':lua wrap_with("_", "_")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("v", "<A-u>", ':lua wrap_with("<u>", "</u>")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "((", ':lua wrap_with("((", "))")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<leader>ml", ':lua wrap_with("[[", "]]")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "{{", ':lua wrap_with("{{", "}}")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<<", ':lua wrap_with("<<", ">>")<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<c-b>", ':lua wrap_with("**", "**")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("v", "((", ':lua wrap_with("((", "))")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("v", "<leader>ml", ':lua wrap_with("[[", "]]")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("v", "{{", ':lua wrap_with("{{", "}}")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("v", "<<", ':lua wrap_with("<<", ">>")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("v", "<C-b>", ':lua wrap_with("**", "**")<CR>', { noremap = true, silent = true })
+-- --vim.api.nvim_set_keymap("v", "<C-i>", ':lua wrap_with("_", "_")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("v", "<A-u>", ':lua wrap_with("<u>", "</u>")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "((", ':lua wrap_with("((", "))")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "<leader>ml", ':lua wrap_with("[[", "]]")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "{{", ':lua wrap_with("{{", "}}")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "<<", ':lua wrap_with("<<", ">>")<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "<c-b>", ':lua wrap_with("**", "**")<CR>', { noremap = true, silent = true })
 --vim.api.nvim_set_keymap("n", "<c-i>", ':lua wrap_with("_", "_")<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<a-u>", ':lua wrap_with("<u>", "</u>")<CR>', { noremap = true, silent = true })
 
@@ -200,13 +199,13 @@ vim.api.nvim_set_keymap("n", "<leader>uc", [[:s/\<./\u&/g<CR>:nohlsearch<CR>]], 
 --vim.keymap.set("n", "<leader>e", "<cmd>oil<CR>", { desc = "Open parent directory" })
 vim.keymap.set("n", "<leader>mvs", "<CMD>Markview splitEnable<CR>", { desc = "Markview Split view toggle" })
 vim.keymap.set("n", "<leader>mvh", "<CMD>Markview hybridEnable<CR>", { desc = "Markview Hybrid view toggle" })
-vim.keymap.set("n", "<leader>e", function()
-  require("mini.files").open(vim.api.nvim_buf_get_name(0), true)
-end, { desc = "Open parent directory" })
-
-vim.keymap.set("n", "<leader>E", function()
-  require("mini.files").open(vim.uv.cwd(), true)
-end, { desc = "Open mini.files (cwd)" })
+-- vim.keymap.set("n", "<leader>e", function()
+--   require("mini.files").open(vim.api.nvim_buf_get_name(0), true)
+-- end, { desc = "Open parent directory" })
+--
+-- vim.keymap.set("n", "<leader>E", function()
+--   require("mini.files").open(vim.uv.cwd(), true)
+-- end, { desc = "Open mini.files (cwd)" })
 
 -- -- Colemak Layout Settings
 -- -- Function to toggle remapping

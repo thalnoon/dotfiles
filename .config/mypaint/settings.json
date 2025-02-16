@@ -39,7 +39,7 @@
   "ui.dark_theme_variant": true,
   "ui.rendered_tile_cache_size": 16384,
   "saving.default_format": "openraster",
-  "brushmanager.selected_brush": "Dieterle/Fan#1",
+  "brushmanager.selected_brush": "classic/marker_small",
   "brushmanager.selected_groups": [],
   "frame.color_rgba": [
     0.12,
@@ -61,18 +61,39 @@
           "active_page": -1
         }
       ],
-      "w": 27,
-      "h": 629
+      "w": 28,
+      "h": 973
     },
     "right_sidebar": {
       "groups": [
+        {
+          "tools": [
+            [
+              "MyPaintBrushGroupTool",
+              "Classic"
+            ]
+          ],
+          "active_page": 0,
+          "w": 242,
+          "h": 351
+        },
+        {
+          "tools": [
+            [
+              "MyPaintPaletteTool"
+            ]
+          ],
+          "active_page": 0,
+          "w": 242,
+          "h": 564
+        },
         {
           "tools": [],
           "active_page": -1
         }
       ],
-      "w": 27,
-      "h": 609
+      "w": 242,
+      "h": 929
     },
     "floating": [],
     "position": {},
@@ -104,9 +125,11 @@
   "command.max_undo_stack_size": 40,
   "input.devices": {
     "Wayland Pointer:mouse:2": {},
-    "Wayland Wheel Scrolling:mouse:2": {}
+    "Wayland Wheel Scrolling:mouse:2": {},
+    "OpenTabletDriver Virtual Artist Tablet:pen:2": {},
+    "OpenTabletDriver Virtual Artist Tablet (Eraser):eraser:2": {}
   },
-  "colors.current": "#003153",
+  "colors.current": "#ffa812",
   "colors.palette": {
     "name": "MyPaint Default",
     "columns": 7,
@@ -426,15 +449,26 @@
   "ui.file_compat_warning_mild": true,
   "ui.file_compat_warning_severe": true,
   "colors.history": [
-    "#ee3333",
-    "#336699",
-    "#44aa66",
     "#aa6633",
-    "#003153"
+    "#003153",
+    "#77c679",
+    "#808080",
+    "#ffa811"
   ],
   "brush_chooser.default.window_size": [
     256,
     308
   ],
-  "brush_chooser.default.selected_group": "Classic"
+  "brush_chooser.default.selected_group": "Deevad",
+  "devbrush.last_used": "OpenTabletDriver Virtual Artist Tablet",
+  "color_chooser.fast_subset.window_size": [
+    282,
+    324
+  ],
+  "color_chooser.default.window_size": [
+    282,
+    324
+  ],
+  "color_chooser.fast_subset.selected_adjuster": "PaletteTool",
+  "color_chooser.default.selected_adjuster": "PaletteTool"
 }
