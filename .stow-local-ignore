@@ -1,0 +1,14 @@
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+OpenTabletDriver/Logs
+obsidian/Cache
+obsidian/Code Cache
+obsidian/*Cache
+obsidian/
+\.config/obsidian
