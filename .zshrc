@@ -1,5 +1,6 @@
 export ZSH=$HOME/.zsh
 #HISTFILE=$ZSH/.zsh_history
+bindkey -e
 
 
 
@@ -169,11 +170,10 @@ export FZF_ALT_C_OPTS="--preview 'eza --icons=always --tree --color=always {} | 
 
 # Unbind original Ctrl+T
 bindkey -r '^T'
-
+bindkey '^F' fzf-file-widget
 # Bind Ctrl+F to the fzf-file-widget
 export FZF_CTRL_F_COMMAND="${FZF_DEFAULT_COMMAND} --exclude .cache"
 export FZF_CTRL_F_OPTS="${FZF_DEFAULT_OPTS}"
-bindkey '^F' fzf-file-widget
 
 # Unbind the default Ctrl-T and bind Ctrl-F to file search
 bindkey -r '^T'  # Unbind Ctrl-T
@@ -191,9 +191,16 @@ fcd() {
 
 stty -ixon
 # Find and edit using fzf
+# fe() {
+#   nvim "$(find -type f | fzf --preview 'bat --style=numbers --color=always --line-range :500 {}')"
+# }
+
 fe() {
-  nvim "$(find -type f | fzf --preview 'bat --style=numbers --color=always --line-range :500 {}')"
+  local file
+  file=$(fd --type f --hidden | fzf --preview 'bat --style=numbers --color=always --line-range :500 {}')
+  [[ -n "$file" ]] && nvim "$file"
 }
+
 
 bindkey '^[f' fe-widget
 
@@ -251,12 +258,12 @@ frm() {
 # Man
 export MANPAGER='nvim +Man!'
 
-bindkey "^[OC" vi-forward-char
-bindkey "^[[C" vi-forward-char
-bindkey "^[OD" vi-backward-char
-bindkey "^[[D" vi-backward-char
-bindkey "^[[1;3D" backward-word
-bindkey "^[[1;3C" forward-word
+echo -ne "\033[6 q"
+bindkey -r '^[w'
+bindkey '^[w' forward-word
+bindkey -r "^U"
+bindkey "^U" backward-kill-line
+
 
 
 # ~/.zshrc
@@ -299,7 +306,7 @@ zinit load zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 zinit light Aloxaf/fzf-tab
 zinit light zdharma-continuum/fast-syntax-highlighting
-zinit light jeffreytse/zsh-vi-mode
+##zinit light jeffreytse/zsh-vi-mode
 
 # Add in snippets
 zinit snippet OMZL::git.zsh
@@ -310,3 +317,7 @@ zinit snippet OMZP::aws
 zinit snippet OMZP::kubectl
 zinit snippet OMZP::kubectx
 zinit snippet OMZP::command-not-found
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
