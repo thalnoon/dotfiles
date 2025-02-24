@@ -2,7 +2,7 @@ export ZSH=$HOME/.zsh
 #HISTFILE=$ZSH/.zsh_history
 bindkey -e
 
-
+export STARSHIP_CONFIG=~/.config/starship.toml
 
 export HISTFILE=$ZSH/.zsh_history
 export HISTSIZE=5000000
@@ -18,23 +18,6 @@ setopt HIST_IGNORE_SPACE         # Do not record an event starting with a space.
 setopt HIST_SAVE_NO_DUPS         # Do not write a duplicate event to the history file.
 setopt SHARE_HISTORY             # Share history between all sessions.
 # END HISTORY
-
-## Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-#typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-## Initialization code that may require console input (password prompts, [y/n]
-## confirmations, etc.) must go above this block; everything else may go below.
-#if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-#fi
-#
-## Path to your oh-my-zsh installation.
-#ZSH=/usr/share/oh-my-zsh/
-## Path to powerlevel10k theme
-#source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-#
-## List of plugins used
-#plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting )
-#source $ZSH/oh-my-zsh.sh
 
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -256,7 +239,7 @@ frm() {
 #}
 
 # Man
-export MANPAGER='nvim +Man!'
+export MANPAGER='nvim -c "setlocal signcolumn=no" +Man!'
 
 echo -ne "\033[6 q"
 bindkey -r '^[w'

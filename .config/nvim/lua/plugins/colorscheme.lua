@@ -1,4 +1,8 @@
 return {
+  { "rktjmp/lush.nvim" },
+  {
+    "RRethy/base16-nvim",
+  },
   {
     "sainnhe/gruvbox-material",
     lazy = false,

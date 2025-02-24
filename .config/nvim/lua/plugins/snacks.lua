@@ -2,6 +2,12 @@ return {
   "folke/snacks.nvim",
   ---@type snacks.Config
   keys = {
+    { ",c", LazyVim.pick.config_files(), desc = "Find Config File" },
+    {
+      ",,",
+      LazyVim.pick("files"),
+      desc = "Find Files - Root",
+    },
     {
       ",f",
       function()
@@ -46,6 +52,11 @@ return {
     },
   },
   opts = {
+    image = {
+      doc = {
+        inline = false,
+      },
+    },
     lazygit = {},
     terminal = {},
     picker = {

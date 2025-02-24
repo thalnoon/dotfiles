@@ -1,0 +1,217 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">YWN0aW9ubGlzdA==</entry>
+        <entry encoding="base64">YWN0aW9ubGlzdCA8Yy1zLWE+</entry>
+        <entry encoding="base64">YWN0aW9ubGlzdCA8YS0xPg==</entry>
+        <entry encoding="base64">aW4=</entry>
+        <entry encoding="base64">YWN0aW9ubGlzdCBpbmNyZWFzZQ==</entry>
+        <entry encoding="base64">JzwsJz5zL3N0cmluZy9pbnB1dA==</entry>
+        <entry encoding="base64">JzwsJz4lcy9zdHJpbmcvaW5wdXQvZw==</entry>
+        <entry encoding="base64">cmVsb2Fk</entry>
+        <entry encoding="base64">c291cmNlIH4vLmlkZWF2aW1yYw==</entry>
+      </history-cmd>
+      <history-search>
+        <entry encoding="base64">c3RyaW5n</entry>
+        <entry encoding="base64" />
+        <entry encoding="base64">LA==</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="untitled-36398035">
+      <jump line="2" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="15" column="0" filename="$USER_HOME$/IdeaProjects/untitled/.gitignore" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/IdeaProjects/untitled/.gitignore" protocol="file" />
+      <jump line="18" column="19" filename="$USER_HOME$/IdeaProjects/untitled/.gitignore" protocol="file" />
+      <jump line="2" column="11" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="3" column="15" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="6" column="3" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="88" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="81" column="32" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="72" column="31" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="73" column="30" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="76" column="32" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="79" column="4" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="84" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="83" column="24" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="161" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="5" column="24" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="21" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="18" column="15" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="25" column="23" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="27" column="32" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="15" column="34" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="519" column="31" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Arrays.kt" protocol="jar" />
+      <jump line="2641" column="45" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" protocol="jar" />
+      <jump line="2638" column="38" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" protocol="jar" />
+      <jump line="2639" column="31" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" protocol="jar" />
+      <jump line="2640" column="45" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" protocol="jar" />
+      <jump line="2621" column="31" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" protocol="jar" />
+      <jump line="2664" column="0" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" protocol="jar" />
+      <jump line="518" column="70" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Arrays.kt" protocol="jar" />
+      <jump line="60" column="56" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/kotlin/collections/Collections.kt" protocol="jar" />
+      <jump line="517" column="2" filename="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Arrays.kt" protocol="jar" />
+      <jump line="20" column="23" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="16" column="51" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="10" column="32" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="11" column="29" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="8" column="63" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="9" column="40" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="14" column="25" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="13" column="18" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="17" column="70" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="4" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="48" column="56" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="12" column="16" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="7" column="16" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="24" column="4" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="5" column="30" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="6" column="30" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="6" column="19" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="32" column="1" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="41" column="39" filename="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="2" column="28" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="13" column="21" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="11" column="45" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="12" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="4" column="33" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="17" column="12" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="3" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="20" column="22" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="25" column="19" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="16" column="12" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="1" column="4" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="14" column="0" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+      <jump line="19" column="31" filename="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/.ideavimrc" timestamp="1738600167709">
+        <mark key="&quot;" line="161" column="0" />
+        <mark key="[" line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/untitled/src/Test.kt" timestamp="1738699969162">
+        <mark key="&quot;" line="0" column="8" />
+      </file>
+      <file name="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt" timestamp="1738694637372">
+        <mark key="&quot;" line="2664" column="0" />
+      </file>
+      <file name="/usr/lib/jvm/java-23-openjdk!/java.desktop/java/awt/Font.class" timestamp="1737653624122">
+        <mark key="&quot;" line="6" column="17" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/plugins/javascript-plugin/jsLanguageServicesImpl/external/lib.dom.d.ts" timestamp="1737653623370">
+        <mark key="&quot;" line="553" column="14" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/untitled/src/test.kt" timestamp="1737654731149">
+        <mark key="&quot;" line="0" column="3" />
+        <mark key="[" line="0" column="12" />
+        <mark key="]" line="1" column="4" />
+        <mark key="^" line="1" column="4" />
+        <mark key="." line="1" column="3" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/untitled/src/Main.kt" timestamp="1738696765921">
+        <mark key="&quot;" line="2" column="8" />
+        <mark key="'" line="51" column="56" />
+        <mark key="[" line="6" column="31" />
+      </file>
+      <file name="/" timestamp="1737659368946">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/plugins/javascript-plugin/jsLanguageServicesImpl/external/lib.dom.iterable.d.ts" timestamp="1737653648801">
+        <mark key="&quot;" line="119" column="14" />
+      </file>
+      <file name="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Arrays.kt" timestamp="1738694695516">
+        <mark key="&quot;" line="517" column="2" />
+        <mark key="'" line="518" column="70" />
+      </file>
+      <file name="/usr/lib/jvm/java-23-openjdk!/jdk.compiler/com/sun/tools/javac/comp/ThisEscapeAnalyzer.class" timestamp="1737654609740">
+        <mark key="&quot;" line="6" column="24" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/untitled/.gitignore" timestamp="1738696683001">
+        <mark key="&quot;" line="3" column="12" />
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="1" />
+        <mark key="." line="16" column="0" />
+        <mark key="^" line="16" column="1" />
+      </file>
+      <file name="$APPLICATION_HOME_DIR$/plugins/javascript-plugin/jsLanguageServicesImpl/external/lib.webworker.d.ts" timestamp="1737653648147">
+        <mark key="&quot;" line="260" column="14" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="CHARACTER_WISE">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="+" type="CHARACTER_WISE">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64">IA==</text>
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">c3RyaW5n</text>
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">ZnVuIGNoZWNrQ2F0ZWdvcnkobnVtYmVyOiBJbnQpIHsKICAgIHByaW50bG4oCiAgICAgICAgd2hlbiB7CiAgICAgICAgICAgIG51bWJlciA8IDEgLT4gIm5vIGFybXkiCiAgICAgICAgICAgIG51bWJlciBpbiAxLi40IC0+ICJmZXciCiAgICAgICAgICAgIG51bWJlciBpbiA1Li45IC0+ICJzZXZlcmFsIgogICAgICAgICAgICBudW1iZXIgaW4gMTAuLjE5IC0+ICJwYWNrIgogICAgICAgICAgICBudW1iZXIgaW4gMjAuLjQ5IC0+ICJsb3RzIgogICAgICAgICAgICBudW1iZXIgaW4gNTAuLjk5IC0+ICJob3JkZSIKICAgICAgICAgICAgbnVtYmVyIGluIDEwMC4uMjQ5IC0+ICJ0aHJvbmciCiAgICAgICAgICAgIG51bWJlciBpbiAyNTAuLjQ5OSAtPiAic3dhcm0iCiAgICAgICAgICAgIG51bWJlciBpbiA1MDAuLjk5OSAtPiAiem91bmRzIgogICAgICAgICAgICBudW1iZXIgaW4gMTAwMC4uSW50Lk1BWF9WQUxVRSAtPiAibGVnaW9uIgogICAgICAgICAgICBlbHNlIC0+ICJQbGVhc2UgZW50ZXIgYSB2YWxpZCBudW1iZXIiCiAgICAgICAgfQogICAgKQp9Cg==</text>
+      </register>
+      <register name="1" type="BLOCK_WISE">
+        <text encoding="base64">bnVtYmVyIApudW1iZXIgCm51bWJlciAKbnVtYmVyIApudW1iZXIgCm51bWJlciAKbnVtYmVyIApudW1iZXIgCm51bWJlciAKbnVtYmVyIA==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">ICAgIHZhbCBiID0gcmVhZGxuKCkudG9JbnQoKQogICAgdmFsIGMgPSByZWFkbG4oKS50b0ludCgpCg==</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaW50bG4oIkVudGVyIHRoZSBudW1iZXJzOiAiKQo=</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaW50bG4oaXNWb3dlbChpbnB1dCkpCg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaW50bG4oaXNWb3dlbCgneScpKQo=</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">ICAgIGNoYXJhYwo=</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">ICAgIGNoYXJhY3Rlci5pcwo=</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">Y2xhc3MgVGVzdCB7Cn0K</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">c291cmNlIH4vLmlkZWF2aW1yYw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-substitute encoding="base64">c3RyaW5n</last-substitute>
+      <last-offset encoding="base64" />
+      <last-replace encoding="base64">aW5wdXQ=</last-replace>
+      <last-pattern encoding="base64">c3RyaW5n</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

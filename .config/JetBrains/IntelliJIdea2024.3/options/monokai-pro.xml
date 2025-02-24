@@ -1,0 +1,6 @@
+<application>
+  <component name="MonokaiProConfig">
+    <option name="themeFolder" value="monokai-pro-filter-ristretto" />
+    <option name="themeName" value="Monokai Pro (Filter Ristretto)" />
+  </component>
+</application>

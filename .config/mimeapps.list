@@ -30,3 +30,4 @@ image/=vimiv.desktop
 image/jpg=vimiv.desktop
 image/png=vimiv.desktop
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+inode/directory=org.kde.dolphin.desktop

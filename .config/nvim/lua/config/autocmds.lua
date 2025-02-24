@@ -30,6 +30,11 @@ vim.api.nvim_create_autocmd("User", {
   end,
 })
 
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "man",
+  command = "setlocal signcolumn=no",
+})
+
 -- -- Add to your init.lua
 -- vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter" }, {
 --   pattern = "*.md",

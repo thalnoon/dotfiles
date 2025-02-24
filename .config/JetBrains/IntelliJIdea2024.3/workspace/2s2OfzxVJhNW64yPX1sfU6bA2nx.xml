@@ -1,0 +1,389 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="untitled" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="xg5os2dxqk1e" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/Main.kt">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="330">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Main.kt","foregroundColor":-7042421,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-107,1,10,-110,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,110,111,111,110,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,109,111,110,111,107,97,105,45,112,114,111,47,108,105,98,47,109,111,110,111,107,97,105,45,112,114,111,45,50,46,48,46,49,46,106,97,114,33,47,105,99,111,110,115,47,109,111,110,111,107,97,105,45,112,114,111,45,102,105,108,116,101,114,45,114,105,115,116,114,101,116,116,111,47,107,111,116,108,105,110,46,115,118,103]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test.kt">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="50">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Test.kt","foregroundColor":-7042421,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-107,1,10,-110,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,110,111,111,110,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,109,111,110,111,107,97,105,45,112,114,111,47,108,105,98,47,109,111,110,111,107,97,105,45,112,114,111,45,50,46,48,46,49,46,106,97,114,33,47,105,99,111,110,115,47,109,111,110,111,107,97,105,45,112,114,111,45,102,105,108,116,101,114,45,114,105,115,116,114,101,116,116,111,47,107,111,116,108,105,110,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/kotlin/collections/Collections.kt">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="208">
+              <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Collections.kt","foregroundColor":-7042421,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-107,1,10,-110,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,110,111,111,110,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,73,110,116,101,108,108,105,74,73,100,101,97,50,48,50,52,46,51,47,109,111,110,111,107,97,105,45,112,114,111,47,108,105,98,47,109,111,110,111,107,97,105,45,112,114,111,45,50,46,48,46,49,46,106,97,114,33,47,105,99,111,110,115,47,109,111,110,111,107,97,105,45,112,114,111,45,102,105,108,116,101,114,45,114,105,115,116,114,101,116,116,111,47,107,111,116,108,105,110,46,115,118,103]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "GitIgnore file": {
+      "usageCount": 3,
+      "lastUsed": 1737655412704
+    },
+    "textmate": {
+      "usageCount": 4,
+      "lastUsed": 1738600094171
+    },
+    "Kotlin": {
+      "usageCount": 23,
+      "lastUsed": 1738696388413
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>main</find>
+      <find>test</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src</dir>
+    </dirStrings>
+  </component>
+  <component name="FindInProjectScope">
+    <option name="isProjectScope" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/noon/IdeaProjects/untitled/.gitignore",
+    "/home/noon/IdeaProjects/untitled/src/test.kt",
+    "/home/noon/IdeaProjects/untitled/src/Main.kt",
+    "/home/noon/IdeaProjects/untitled/src/Test.kt"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="GitIgnore">
+      <summary usageCount="3" lastUsage="1737655412704" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="23" lastUsage="1738696388413" />
+    </language>
+    <language id="textmate">
+      <summary usageCount="4" lastUsage="1738600094171" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/noon/IdeaProjects/untitled}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/noon/IdeaProjects/untitled}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/noon/IdeaProjects/untitled/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="icons/toolwindows/toolWindowProject.svg" iconPlugin="com.mallowigi" isLeaf="false" text="untitled" />
+            <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="icons/mt/modules/ModuleOpen.svg" iconPlugin="com.mallowigi" isLeaf="false" text="untitled" />
+              <item name="dir{file:///home/noon/IdeaProjects/untitled}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/noon/IdeaProjects/untitled/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/out" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="out" />
+                <item name="dir{file:///home/noon/IdeaProjects/untitled/out}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/src" />
+                  </map>
+                </attributes>
+                <data isLeaf="false" text="src" />
+                <item name="dir{file:///home/noon/IdeaProjects/untitled/src}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/Main.kt" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Main.kt" />
+                  <item name="Main.kt" type="24436e51:KtFileTreeNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/src/Test.kt" />
+                    </map>
+                  </attributes>
+                  <data isLeaf="true" text="Test.kt" />
+                  <item name="Test.kt" type="24436e51:KtFileTreeNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/untitled.iml" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/nodes/ideaModule.svg" iconPlugin="com.mallowigi" isLeaf="true" text="untitled.iml" />
+                <item name="untitled.iml" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="icons/nodes/ppLib.svg" iconPlugin="com.mallowigi" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="icons/scope/scratches.svg" iconPlugin="com.mallowigi" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Kotlin.TestKt" />
+      <element setting="Kotlin.MainKt" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local">
+        <shellCommand>
+          <arg value="/usr/bin/zsh" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25804000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11605263" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.3296332" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3296332" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.3296332" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.3296332" />
+      <window_info anchor="bottom" id="Debug" order="6" show_stripe_button="false" weight="0.3296332" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25973684" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.3296332" left="0.11605263" right="0.25973684" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Debug</value>
+      <value>Terminal</value>
+      <value>Problems View</value>
+      <value>AIAssistant</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1900" height="299" key="GridCell.Tab.0.bottom" timestamp="1738700536730">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536730" />
+    <state width="1900" height="299" key="GridCell.Tab.0.center" timestamp="1738700536729">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536729" />
+    <state width="1900" height="299" key="GridCell.Tab.0.left" timestamp="1738700536729">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536729" />
+    <state width="1900" height="299" key="GridCell.Tab.0.right" timestamp="1738700536729">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536729" />
+    <state width="1900" height="299" key="GridCell.Tab.1.bottom" timestamp="1738700536730">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536730" />
+    <state width="1900" height="299" key="GridCell.Tab.1.center" timestamp="1738700536730">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.1.center/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536730" />
+    <state width="1900" height="299" key="GridCell.Tab.1.left" timestamp="1738700536730">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.1.left/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536730" />
+    <state width="1900" height="299" key="GridCell.Tab.1.right" timestamp="1738700536730">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1900" height="299" key="GridCell.Tab.1.right/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738700536730" />
+    <state x="1835" y="202" key="SettingsEditor" timestamp="1738693195928">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1835" y="202" key="SettingsEditor/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738693195928" />
+    <state width="498" height="439" key="SwitcherDM" timestamp="1737655635060">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="439" key="SwitcherDM/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1737655635060" />
+    <state x="2181" y="510" width="426" height="84" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1737654969026">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2181" y="510" width="426" height="84" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1737654969026" />
+    <state x="2090" y="207" width="649" height="864" key="find.popup" timestamp="1738696683010">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2090" y="207" width="649" height="864" key="find.popup/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738696683010" />
+    <state width="600" height="400" key="javadoc.popup" timestamp="1737654763847">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="400" key="javadoc.popup/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1737654763847" />
+    <state x="1990" y="255" key="run.anything.popup" timestamp="1737654271736">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1990" y="255" key="run.anything.popup/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1737654271736" />
+    <state x="1989" y="251" width="701" height="171" key="search.everywhere.popup" timestamp="1738699784571">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1989" y="251" width="701" height="171" key="search.everywhere.popup/0.0.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1738699784571" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test.kt" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.ideavimrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Sequences.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="2664" selection-start-line="2664" selection-end-line="2664" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/kotlin/collections/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.0/kotlin-stdlib-2.1.0-sources.jar!/commonMain/generated/_Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="517" column="2" selection-start-line="517" selection-start-column="2" selection-end-line="517" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

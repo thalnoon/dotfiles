@@ -16,7 +16,7 @@ window#waybar {
 tooltip {
     background: @main-bg;
     color: @main-fg;
-    border-radius: 5px;
+    border-radius: 7px;
     border-width: 0px;
 }
 
@@ -24,7 +24,7 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 6px;
+    border-radius: 8px;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 0px;
@@ -39,8 +39,8 @@ tooltip {
     background: @wb-act-bg;
     color: @wb-act-fg;
     margin-left: 2px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
     margin-right: 2px;
     animation: ws_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
@@ -57,7 +57,7 @@ tooltip {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 6px;
+    border-radius: 8px;
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 0px;
@@ -72,8 +72,8 @@ tooltip {
     background: @wb-act-bg;
     color: @wb-act-color;
     margin-left: 2px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
     margin-right: 2px;
     animation: tb_active 20s ease-in-out 1;
     transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
@@ -97,11 +97,17 @@ tooltip {
 #backlight,
 #battery,
 #bluetooth,
+#custom-cava,
 #custom-cliphist,
+#clock,
 #clock,
 #custom-cpuinfo,
 #cpu,
+#custom-display,
+#custom-github_hyde,
+#custom-github_hyprdots,
 #custom-gpuinfo,
+#custom-hyprsunset,
 #idle_inhibitor,
 #custom-keybindhint,
 #language,
@@ -112,14 +118,20 @@ tooltip {
 #custom-power,
 #privacy,
 #pulseaudio,
+#custom-sensorsinfo,
 #custom-spotify,
 #taskbar,
+#taskbar,
+#taskbar#windows,
 #custom-theme,
 #tray,
 #custom-updates,
 #custom-wallchange,
 #custom-wbar,
+#custom-weather,
 #window,
+#workspaces,
+#workspaces,
 #workspaces,
 #custom-l_end,
 #custom-r_end,
@@ -131,14 +143,8 @@ tooltip {
     background: @main-bg;
     opacity: 1;
     margin: 3px 0px 3px 0px;
-    padding-left: 3px;
+    padding-left: 4px;
     padding-right: 4px;
-}
-#clock {
-  padding-right: 6px;
-}
-#idle_inhibitor {
-  padding-right: 6px;
 }
 
 #workspaces,
@@ -147,37 +153,37 @@ tooltip {
 }
 
 #custom-r_end {
-    border-radius: 0px 4px 4px 0px;
-    margin-right: 6px;
+    border-radius: 0px 19px 19px 0px;
+    margin-right: 8px;
     padding-right: 0px;
 }
 
 #custom-l_end {
-    border-radius: 4px 0px 0px 4px;
-    margin-left: 6px;
+    border-radius: 19px 0px 0px 19px;
+    margin-left: 8px;
     padding-left: 0px;
 }
 
 #custom-sr_end {
     border-radius: 0px;
-    margin-right: 6px;
+    margin-right: 8px;
     padding-right: 0px;
 }
 
 #custom-sl_end {
     border-radius: 0px;
-    margin-left: 6px;
+    margin-left: 8px;
     padding-left: 0px;
 }
 
 #custom-rr_end {
-    border-radius: 0px 5px 5px 0px;
-    margin-right: 6px;
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 8px;
     padding-right: 0px;
 }
 
 #custom-rl_end {
-    border-radius: 5px 0px 0px 5px;
-    margin-left: 6px;
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 8px;
     padding-left: 0px;
 }

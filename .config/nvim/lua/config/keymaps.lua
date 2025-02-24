@@ -22,6 +22,10 @@ set("n", "x", '"_x')
 
 local opts = { noremap = true, silent = true }
 
+-- set({ "n", "x" }, "j", "v:count == 0 ? 'gjzz' : 'jzz'", { desc = "Down", expr = true, silent = true })
+-- set({ "n", "x" }, "<Down>", "v:count == 0 ? 'gjzz' : 'jzz'", { desc = "Down", expr = true, silent = true })
+-- set({ "n", "x" }, "k", "v:count == 0 ? 'gkzz' : 'kzz'", { desc = "Up", expr = true, silent = true })
+-- set({ "n", "x" }, "<Up>", "v:count == 0 ? 'gkzz' : 'kzz'", { desc = "Up", expr = true, silent = true })
 -- use jk to exit insert mode
 set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 set("i", "<A-t>", "<C-t>", { desc = "Exit insert mode with jk" })

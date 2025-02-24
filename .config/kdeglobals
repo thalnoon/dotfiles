@@ -3,3 +3,12 @@ TerminalApplication=kitty
 
 [Icons]
 Theme=Gruvbox-Plus-Dark
+
+[Colors:View]
+BackgroundNormal=#00000000
+
+[KDE]
+widgetStyle=kvantum
+
+[UiSettings]
+ColorScheme=*
