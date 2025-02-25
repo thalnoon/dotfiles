@@ -3,6 +3,7 @@
 \.gitmodules
 ^config/hyde$
 ^config/gtk-4.0$
+^config/swww$
 
 ^/README.*
 ^/LICENSE.*

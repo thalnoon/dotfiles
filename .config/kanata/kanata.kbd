@@ -28,7 +28,7 @@ process-unmapped-keys yes
 )
 
 (defalias
-  ;;ext  (layer-toggle extend) ;; Bind 'ext' to the Extend Layer
+  ext  (layer-toggle extend) ;; Bind 'ext' to the Extend Layer
   sym  (layer-toggle sym)
   qsym  (layer-toggle qsym)
   syl (tap-hold-release 200 200 a @sym)
@@ -111,67 +111,68 @@ process-unmapped-keys yes
   to-colemak (layer-switch colemak)
 )
 
-;;(defalias
-;;  tap (multi
-;;    (layer-switch nomods)
-;;    (on-idle-fakekey to-base tap 20)
-;;  )
-;;
-;;  z (tap-hold-release-keys $tap-time $hold-time (multi z @tap) lctl $left-hand-keys)
-;;  x (tap-hold-release-keys $tap-time $hold-time (multi x @tap) lalt $left-hand-keys)
-;;  c (tap-hold-release-keys $tap-time $hold-time (multi c @tap) lsft $left-hand-keys)
-;;  v (tap-hold-release-keys $tap-time $hold-time (multi v @tap) lmet $left-hand-keys)
-;;  ;;shif (tap-hold-release $tap-time $hold-time (multi esc @tap) @csk)
-;;  ;;spc (tap-hold-release-keys $tap-time $hold-time (multi spc @tap) (layer-toggle sym) $full-hand-keys)
-;;  . (tap-hold-release-keys $tap-time $hold-time (multi . @tap) ralt $right-hand-keys)
-;;  , (tap-hold-release-keys $tap-time $hold-time (multi , @tap) rsft $right-hand-keys)
-;;  m (tap-hold-release-keys $tap-time $hold-time (multi m @tap) rmet $right-hand-keys)
-;;  / (tap-hold-release-keys $tap-time $hold-time (multi / @tap) rctl $right-hand-keys)
-;;)
-
-
-;;(defalias
-;;  tapc (multi
-;;    (layer-switch colemak_nomods)
-;;    (on-idle-fakekey to-colemak tap 20)
-;;  )
-;;
-;;  zc (tap-hold-release-keys $tap-time $hold-time (multi z @tapc) lctl $left-hand-keys)
-;;  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lalt $left-hand-keys)
-;;  cc (tap-hold-release-keys $tap-time $hold-time (multi c @tapc) lsft $left-hand-keys)
-;;  vc (tap-hold-release-keys $tap-time $hold-time (multi v @tapc) lmet $left-hand-keys)
-;;
-;;  ;;shifc (tap-hold-release $tap-time $hold-time (multi esc @tapc) @csk)
-;;  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) ralt $right-hand-keys)
-;;  ,c (tap-hold-release-keys $tap-time $hold-time (multi , @tapc) rsft $right-hand-keys)
-;;  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) rmet $right-hand-keys)
-;;  /c (tap-hold-release-keys $tap-time $hold-time (multi / @tapc) rctl $right-hand-keys)
-;;)
-
 (defalias
-  ext (tap-hold $tap-time $hold-time esc (layer-while-held extend))
-  ;; cap (tap-hold $tap-time $hold-time esc (layer-while-held vim-nav))
-  zc (switch ((key-timing 1 less-than $tap-time)) z break () (tap-hold $tap-time $hold-time z lctl) break)
-  xc (switch ((key-timing 1 less-than $tap-time)) x break () (tap-hold $tap-time $hold-time x lalt) break)
-  cc (switch ((key-timing 1 less-than $tap-time)) c break () (tap-hold $tap-time $hold-time c lsft) break)
-  vc (switch ((key-timing 1 less-than $tap-time)) v break () (tap-hold $tap-time $hold-time v lmet) break)
-  hc (switch ((key-timing 1 less-than $tap-time)) h break () (tap-hold $tap-time $hold-time h rmet) break)
-  ,c (switch ((key-timing 1 less-than $tap-time)) , break () (tap-hold $tap-time $hold-time , rsft) break)
-  .c (switch ((key-timing 1 less-than $tap-time)) . break () (tap-hold $tap-time $hold-time . ralt) break)
-  /c (switch ((key-timing 1 less-than $tap-time)) / break () (tap-hold $tap-time $hold-time / rctl) break)
+  tap (multi
+    (layer-switch nomods)
+    (on-idle-fakekey to-base tap 20)
+  )
+
+  z (tap-hold-release-keys $tap-time $hold-time (multi z @tap) lctl $left-hand-keys)
+  x (tap-hold-release-keys $tap-time $hold-time (multi x @tap) lalt $left-hand-keys)
+  c (tap-hold-release-keys $tap-time $hold-time (multi c @tap) lsft $left-hand-keys)
+  v (tap-hold-release-keys $tap-time $hold-time (multi v @tap) lmet $left-hand-keys)
+  ;;shif (tap-hold-release $tap-time $hold-time (multi esc @tap) @csk)
+  ;;spc (tap-hold-release-keys $tap-time $hold-time (multi spc @tap) (layer-toggle sym) $full-hand-keys)
+  . (tap-hold-release-keys $tap-time $hold-time (multi . @tap) ralt $right-hand-keys)
+  , (tap-hold-release-keys $tap-time $hold-time (multi , @tap) rsft $right-hand-keys)
+  m (tap-hold-release-keys $tap-time $hold-time (multi m @tap) rmet $right-hand-keys)
+  / (tap-hold-release-keys $tap-time $hold-time (multi / @tap) rctl $right-hand-keys)
 )
 
+
 (defalias
-  ;; cap (tap-hold $tap-time $hold-time esc (layer-while-held vim-nav))
-  z (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time z lctl) break)
-  x (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time x lalt) break)
-  c (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time c lsft) break)
-  v (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time v lmet) break)
-  m (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time m rmet) break)
-  , (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time , rsft) break)
-  . (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time . ralt) break)
-  / (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time / rctl) break)
+  tapc (multi
+    (layer-switch colemak_nomods)
+    (on-idle-fakekey to-colemak tap 20)
+  )
+  
+
+  zc (tap-hold-release-keys $tap-time $hold-time (multi z @tapc) lctl $left-hand-keys)
+  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lalt $left-hand-keys)
+  cc (tap-hold-release-keys $tap-time $hold-time (multi c @tapc) lsft $left-hand-keys)
+  vc (tap-hold-release-keys $tap-time $hold-time (multi v @tapc) lmet $left-hand-keys)
+
+  ;;shifc (tap-hold-release $tap-time $hold-time (multi esc @tapc) @csk)
+  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) ralt $right-hand-keys)
+  ,c (tap-hold-release-keys $tap-time $hold-time (multi , @tapc) rsft $right-hand-keys)
+  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) rmet $right-hand-keys)
+  /c (tap-hold-release-keys $tap-time $hold-time (multi / @tapc) rctl $right-hand-keys)
 )
+
+;;(defalias
+;;  ext (tap-hold $tap-time $hold-time esc (layer-while-held extend))
+;;  ;; cap (tap-hold $tap-time $hold-time esc (layer-while-held vim-nav))
+;;  zc (switch ((key-timing 1 less-than $tap-time)) z break () (tap-hold $tap-time $hold-time z lctl) break)
+;;  xc (switch ((key-timing 1 less-than $tap-time)) x break () (tap-hold $tap-time $hold-time x lalt) break)
+;;  cc (switch ((key-timing 1 less-than $tap-time)) c break () (tap-hold $tap-time $hold-time c lsft) break)
+;;  vc (switch ((key-timing 1 less-than $tap-time)) v break () (tap-hold $tap-time $hold-time v lmet) break)
+;;  hc (switch ((key-timing 1 less-than $tap-time)) h break () (tap-hold $tap-time $hold-time h rmet) break)
+;;  ,c (switch ((key-timing 1 less-than $tap-time)) , break () (tap-hold $tap-time $hold-time , rsft) break)
+;;  .c (switch ((key-timing 1 less-than $tap-time)) . break () (tap-hold $tap-time $hold-time . ralt) break)
+;;  /c (switch ((key-timing 1 less-than $tap-time)) / break () (tap-hold $tap-time $hold-time / rctl) break)
+;;)
+;;
+;;(defalias
+;;  ;; cap (tap-hold $tap-time $hold-time esc (layer-while-held vim-nav))
+;;  z (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time z lctl) break)
+;;  x (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time x lalt) break)
+;;  c (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time c lsft) break)
+;;  v (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time v lmet) break)
+;;  m (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time m rmet) break)
+;;  , (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time , rsft) break)
+;;  . (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time . ralt) break)
+;;  / (switch ((key-timing 1 less-than $tap-time)) _ break () (tap-hold $tap-time $hold-time / rctl) break)
+;;)
 
 
 (defalias
@@ -216,7 +217,7 @@ process-unmapped-keys yes
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  caps a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+  f24 a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
   lsft 102d z    x    c    v    b    n    m    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
   lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
 )
@@ -224,7 +225,7 @@ process-unmapped-keys yes
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    f    p    g    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  caps a    r    s    t    d    m    n    e    i    o    '    \                          kp4  kp5  kp6
+  f24 a    r    s    t    d    m    n    e    i    o    '    \                          kp4  kp5  kp6
   lsft / z    x    c    v    b    k    h    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
   lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
 )
