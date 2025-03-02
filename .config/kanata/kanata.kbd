@@ -37,6 +37,7 @@ process-unmapped-keys yes
   s{ S-[
   s} S-]
   s| S-\
+  sback C-bspc
   tb A-tab
   sa C-a
   mu (mwheel-up 100 240)
@@ -190,7 +191,7 @@ process-unmapped-keys yes
 
 (deflayer base
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    @sback  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    @qanm    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
   @ext a    s    d    f    @qsyl    h    j    k    l    ;    '    \                          kp4  kp5  kp6
   lsft 102d @z    @x    @c    @v    b    n    @m    @,    @.    @/    rsft            up         kp1  kp2  kp3  kprt
@@ -199,7 +200,7 @@ process-unmapped-keys yes
 
 (deflayer colemak
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    @sback  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    @anm    p    g    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
   @ext @syl    r    s    t    d    m    n    e    i    o    '    \                          kp4  kp5  kp6
   lsft / @zc    @xc    @cc    @vc    b    k    @hc    @,c    @.c    @/c    rsft            up         kp1  kp2  kp3  kprt
