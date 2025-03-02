@@ -7,6 +7,26 @@ process-unmapped-keys yes
   l_dh (layer-switch colemak)
 )
 
+
+(defalias
+  hll M-S-left
+  hlr M-S-rght
+  hlu M-S-up
+  hld M-S-down
+  wl1 M-S-1
+  wl2 M-S-2
+  wl3 M-S-3
+  wl4 M-S-4
+  wl5 M-S-5
+  wl6 M-S-6
+  wl7 M-S-7
+  wl8 M-S-8
+  wl9 M-S-9
+  rmet (multi lctl lalt _ )
+  osr (one-shot 500 C-lsft)
+  oss (one-shot 500 C-lalt)
+)
+
 (defalias
   cpy C-c
   pst C-v
@@ -16,8 +36,10 @@ process-unmapped-keys yes
   fnd C-f
   ;;bk Back
   ;;fw Forward
-  wfw C-right
+  wfw C-rght
   wbk C-left
+  wbu C-up
+  wbd C-down
 )
 
 (defalias
@@ -47,6 +69,14 @@ process-unmapped-keys yes
 (defalias
   os2 (one-shot-press 500 lctl)
   sc (tap-hold 0 200 @os2 lsft)
+
+  toarabic (multi slck (layer-toggle sym) @l_qw )
+  tocolemak (multi slck (layer-toggle sym) @l_dh )
+  swt (switch
+    ((base-layer colemak)) @toarabic break
+    ((base-layer base)) @tocolemak break
+    () z break
+  )
 )
 
 (defalias
@@ -191,7 +221,7 @@ process-unmapped-keys yes
 
 (deflayer base
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    @sback  ins  home pgup  nlck kp/  kp*  kp-
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    @qanm    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
   @ext a    s    d    f    @qsyl    h    j    k    l    ;    '    \                          kp4  kp5  kp6
   lsft 102d @z    @x    @c    @v    b    n    @m    @,    @.    @/    rsft            up         kp1  kp2  kp3  kprt
@@ -200,11 +230,11 @@ process-unmapped-keys yes
 
 (deflayer colemak
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
-  grv  1    2    3    4    5    6    7    8    9    0    -    =    @sback  ins  home pgup  nlck kp/  kp*  kp-
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    @anm    p    g    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
   @ext @syl    r    s    t    d    m    n    e    i    o    '    \                          kp4  kp5  kp6
-  lsft / @zc    @xc    @cc    @vc    b    k    @hc    @,c    @.c    @/c    rsft            up         kp1  kp2  kp3  kprt
-  lctl lmet lalt           spc                 @ext rmet cmp  rctl       left down rght  kp0  kp.
+  @osr / @zc    @xc    @cc    @vc    b    k    @hc    @,c    @.c    @/c    @osr            up         kp1  kp2  kp3  kprt
+  lctl lmet lalt           spc                 @ext @oss cmp  rctl       left down rght  kp0  kp.
 )
 ;;(deflayer qwerty
 ;;  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
@@ -239,12 +269,16 @@ process-unmapped-keys yes
 ;;  _    _     @udo    @cut    @cpy    @pst    _    -    \_    =    +    _    _
 ;;  _        _    _               ret            _    _    _    _
 ;;)
+
+
+
+
 (deflayer extend
    _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
-  _    f1   f2   f3   f4   f5   f6   f7   f8   @sb   @sp  f11  f12     _     _    _    _    _    _    _    _
-  @tb    esc  @mu    @wbk  @wfw  ins  home @s{    up   @s}    end esc slck    _     _    _    _    _    _    _    _
-  _    @sa    @md    @fnd    @fnd ralt [    lft  down rght ]    caps    _                         _    _    _
-  _    _    @udo    @cut    @cpy    @pst    _    -    @s_    =    +    @s|    _               _         _    _    _    _
+  _   @wl1    @wl2   @wl3   @wl4   @wl5   @wl6   @wl7   @wl8   @wl9   @sp  f11  f12     @sback     _    _    _    _    _    _    _
+  @tb    esc  @hlu    @sb  @sp  ins  home @s{    up   @s}    end esc @swt    _     _    _    _    _    _    _    _
+  _    @hll    @hld    @hlu    @hlr \ [    lft  down rght ]    caps    _                         _    _    _
+  _    _    @wbk    @wbd    @wbu    @wfw    _    -    @s_    =    +    @s|    _               _         _    _    _    _
   _    _    _              _                   _    _    _    _          _    _    _    _    _
 )
 ;;(deflayer sym

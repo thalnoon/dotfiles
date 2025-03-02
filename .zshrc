@@ -24,7 +24,7 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'# In case a command is not found, try to find the package that has it
+zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath' # In case a command is not found, try to find the package that has it
 
 function command_not_found_handler {
     local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
@@ -92,6 +92,9 @@ function oo()
 
 
 # Helpful aliases
+alias  tkw='tmux kill-window -a'
+alias  tks='tmux kill-session -a'
+alias  tkp='tmux kill-pane -a'
 alias  c='clear' # clear terminal
 alias  cdh='cd ~' # clear terminal
 alias  sudo='doas' # clear terminal
@@ -248,6 +251,221 @@ bindkey -r "^U"
 bindkey "^U" backward-kill-line
 
 
+
+aur_manager() {
+    local action packages confirm
+
+    action=$(echo -e "Install\nUpdate\nRemove" | fzf --prompt="Choose an action: " --height=10 --border --reverse)
+
+    case "$action" in
+        "Install")
+            packages=$(yay -Ssq | fzf --multi --prompt="Select packages to install: " --height=20 --border --reverse | tr '\n' ' ')
+            if [[ -z "$packages" ]]; then
+                echo "❌ No package selected. Aborting."
+                return 1
+            fi
+            
+            echo "🔹 Packages to install: $packages"
+            read -q "confirm?Proceed with installation? (y/n) "
+            echo ""  # Move to a new line after read
+            
+            if [[ $confirm == "y" ]]; then
+                yay -S --noconfirm $=packages || echo "❌ Installation failed!"
+            else
+                echo "❌ Installation cancelled."
+            fi
+            ;;
+        
+        "Update")
+            echo "🔄 Updating all installed packages..."
+            yay -Syu || echo "❌ Update failed!"
+            ;;
+        
+        "Remove")
+            packages=$(yay -Qq | fzf --multi --prompt="Select packages to remove: " --height=20 --border --reverse | tr '\n' ' ')
+            if [[ -z "$packages" ]]; then
+                echo "❌ No package selected. Aborting."
+                return 1
+            fi
+
+            echo "🔹 Packages to remove: $packages"
+            read -q "confirm?Proceed with removal? (y/n) "
+            echo ""
+
+            if [[ $confirm == "y" ]]; then
+                yay -Rns --noconfirm $=packages || echo "❌ Removal failed!"
+            else
+                echo "❌ Removal cancelled."
+            fi
+            ;;
+        
+        *)
+            echo "❌ No valid option selected."
+            return 1
+            ;;
+    esac
+}
+
+aur-widget() {
+  zle -I # Refreshes the line editor to avoid glitches
+  aur_manager
+}
+zle -N aur_widget
+zle -N aur_manager
+bindkey "^[a" aur_manager
+
+
+# Function to manage Arch Linux packages using fzf
+pm() {
+    # Define colors for better visibility
+    GREEN='\033[0;32m'
+    RED='\033[0;31m'
+    BLUE='\033[0;34m'
+    NC='\033[0m' # No Color
+
+    # Check if fzf is installed
+    if ! command -v fzf &> /dev/null; then
+        echo -e "${RED}Error: fzf is not installed. Please install it with 'pacman -S fzf'.${NC}"
+        return 1
+    fi
+
+    # Check if paru or yay is installed
+    AUR_HELPER=""
+    if command -v paru &> /dev/null; then
+        AUR_HELPER="paru"
+    elif command -v yay &> /dev/null; then
+        AUR_HELPER="yay"
+    fi
+
+    # Step 1: Choose operation mode
+    local MODE=$(echo -e "Manage installed packages\nSearch and install new packages" | 
+                fzf --prompt="Select operation mode: " --height=15% --layout=reverse --border)
+
+    if [[ -z "$MODE" ]]; then
+        echo -e "${RED}Operation cancelled.${NC}"
+        return 0
+    fi
+
+    if [[ "$MODE" == "Manage installed packages" ]]; then
+        echo -e "${BLUE}Fetching installed packages...${NC}"
+        
+        local PACKAGES=$(pacman -Q | awk '{print $1}' | 
+                        fzf --prompt="Select packages: " --multi --preview="pacman -Qi {1} 2>/dev/null || echo 'Not installed'" \
+                            --height=80% --layout=reverse --border)
+
+        if [[ -z "$PACKAGES" ]]; then
+            echo -e "${RED}No packages selected.${NC}"
+            return 0
+        fi
+
+        # Convert selected packages into an array
+        pkg_array=(${(f)PACKAGES})
+
+        # Choose action
+        local OPERATION=$(echo -e "Update\nRemove\nGet information" | 
+                        fzf --prompt="Select operation: " --height=15% --layout=reverse --border)
+
+        if [[ -z "$OPERATION" ]]; then
+            echo -e "${RED}Operation cancelled.${NC}"
+            return 0
+        fi
+
+        case "$OPERATION" in
+            "Update")
+                echo -e "${GREEN}Updating selected packages:${NC}"
+                for pkg in "${pkg_array[@]}"; do
+                    echo -e " - $pkg"
+                done
+
+                read "confirm?Proceed with update? [y/N] "
+                if [[ "$confirm" =~ ^[Yy]$ ]]; then
+                    sudo pacman -S --needed "${pkg_array[@]}"
+                else
+                    echo -e "${RED}Update cancelled.${NC}"
+                fi
+                ;;
+            "Remove")
+                echo -e "${RED}Removing selected packages:${NC}"
+                for pkg in "${pkg_array[@]}"; do
+                    echo -e " - $pkg"
+                done
+
+                read "confirm?Are you sure you want to remove these packages? [y/N] "
+                if [[ "$confirm" =~ ^[Yy]$ ]]; then
+                    sudo pacman -R "${pkg_array[@]}"
+                else
+                    echo -e "${RED}Removal cancelled.${NC}"
+                fi
+                ;;
+            "Get information")
+                for pkg in "${pkg_array[@]}"; do
+                    echo -e "${BLUE}Information for $pkg:${NC}"
+                    pacman -Qi "$pkg"
+                    echo ""
+                    read -k1 "Press any key to continue..."
+                done
+                ;;
+        esac
+    else
+        # Search for packages to install
+        echo -e "${BLUE}Enter a search term (leave empty to browse):${NC}"
+        read QUERY
+
+        local SEARCH_RESULT=""
+        if [[ -z "$AUR_HELPER" ]]; then
+            # Search only in official repos
+            SEARCH_RESULT=$(pacman -Ss "$QUERY" | sed 'N;s/\n/ /' | 
+                            fzf --multi --prompt="Select packages to install: " \
+                                --preview="pacman -Si \$(echo {} | awk '{print \$1}' | sed 's/^.*\\///')" \
+                                --height=80% --layout=reverse --border)
+        else
+            # Use AUR helper to search
+            SEARCH_RESULT=$($AUR_HELPER -Ss "$QUERY" | sed 'N;s/\n/ /' | 
+                            fzf --multi --prompt="Select packages to install: " \
+                                --preview="$AUR_HELPER -Si \$(echo {} | awk '{print \$1}' | sed 's/^.*\\///')" \
+                                --height=80% --layout=reverse --border)
+        fi
+
+        if [[ -z "$SEARCH_RESULT" ]]; then
+            echo -e "${RED}No packages selected.${NC}"
+            return 0
+        fi
+
+        # Extract package names
+        install_pkg_array=()
+        while IFS= read -r line; do
+            pkg_name=$(echo "$line" | awk '{print $1}' | sed 's/^.*\///')
+            install_pkg_array+=("$pkg_name")
+        done <<< "$SEARCH_RESULT"
+
+        # Install selected packages
+        if [[ -n "$AUR_HELPER" ]]; then
+            echo -e "${GREEN}Installing packages using $AUR_HELPER:${NC}"
+            for pkg in "${install_pkg_array[@]}"; do
+                echo -e " - $pkg"
+            done
+
+            read "confirm?Proceed with installation? [y/N] "
+            if [[ "$confirm" =~ ^[Yy]$ ]]; then
+                $AUR_HELPER -S "${install_pkg_array[@]}"
+            else
+                echo -e "${RED}Installation cancelled.${NC}"
+            fi
+        else
+            echo -e "${GREEN}Installing packages from official repos:${NC}"
+            for pkg in "${install_pkg_array[@]}"; do
+                echo -e " - $pkg"
+            done
+
+            read "confirm?Proceed with installation? [y/N] "
+            if [[ "$confirm" =~ ^[Yy]$ ]]; then
+                sudo pacman -S "${install_pkg_array[@]}"
+            else
+                echo -e "${RED}Installation cancelled.${NC}"
+            fi
+        fi
+    fi
+}
 
 # ~/.zshrc
 

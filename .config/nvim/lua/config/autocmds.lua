@@ -81,25 +81,25 @@ vim.api.nvim_create_autocmd("FileType", {
 --   end,
 -- })
 --
-vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter", "WinEnter" }, {
-  pattern = "*.md",
-  group = vim.api.nvim_create_augroup("MarkdownMarkConceal", { clear = true }),
-  callback = function(args)
-    local buf = args.buf
-    local win = vim.fn.bufwinid(buf)
-
-    -- Your existing conceal setup
-    vim.fn.matchadd("htmlTag", [[<\m\(mark\)\_.\{-}>]], 10, -1, { buffer = buf })
-    vim.fn.matchadd("htmlTag", [[</\m\(mark\)>]], 10, -1, { buffer = buf })
-    vim.fn.matchadd("Conceal", [[<\m\(mark\)\_.\{-}>]], 11, -1, { conceal = "", buffer = buf })
-    vim.fn.matchadd("Conceal", [[</\m\(mark\)>]], 11, -1, { conceal = "", buffer = buf })
-
-    -- Defer window option setting
-    vim.defer_fn(function()
-      if vim.api.nvim_win_is_valid(win) then
-        vim.wo[win].conceallevel = 3
-        vim.wo[win].concealcursor = "nci"
-      end
-    end, 10)
-  end,
-})
+-- vim.api.nvim_create_autocmd({ "BufEnter", "BufWinEnter", "WinEnter" }, {
+--   pattern = "*.md",
+--   group = vim.api.nvim_create_augroup("MarkdownMarkConceal", { clear = true }),
+--   callback = function(args)
+--     local buf = args.buf
+--     local win = vim.fn.bufwinid(buf)
+--
+--     -- Your existing conceal setup
+--     vim.fn.matchadd("htmlTag", [[<\m\(mark\)\_.\{-}>]], 10, -1, { buffer = buf })
+--     vim.fn.matchadd("htmlTag", [[</\m\(mark\)>]], 10, -1, { buffer = buf })
+--     vim.fn.matchadd("Conceal", [[<\m\(mark\)\_.\{-}>]], 11, -1, { conceal = "", buffer = buf })
+--     vim.fn.matchadd("Conceal", [[</\m\(mark\)>]], 11, -1, { conceal = "", buffer = buf })
+--
+--     -- Defer window option setting
+--     vim.defer_fn(function()
+--       if vim.api.nvim_win_is_valid(win) then
+--         vim.wo[win].conceallevel = 3
+--         vim.wo[win].concealcursor = "nci"
+--       end
+--     end, 10)
+--   end,
+-- })
