@@ -92,6 +92,9 @@ function oo()
 
 
 # Helpful aliases
+# alias  adb='~/Downloads/platform-tools/adb'
+# alias  fastboot='~/Downloads/platform-tools/fastboot'
+alias  lpd='~/.scripts/manual-duplexer.sh'
 alias  tkw='tmux kill-window -a'
 alias  tks='tmux kill-session -a'
 alias  tkp='tmux kill-pane -a'
@@ -113,8 +116,10 @@ alias pc='$aurhelper -Sc' # remove unused cache
 alias po='$aurhelper -Qtdq | $aurhelper -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias vc='code' # gui code editor
 alias zhconfig="nvim ~/.zshrc" 
+alias hyconfig="nvim ~/.config/hypr/hyprland.conf" 
 alias rg="rg --hyperlink-format=kitty"
-alias vi="nvim"
+alias e="nvim"
+alias ocr="/home/noon/.config/sioyek/ocr.py"
 # Handy change dir shortcuts
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -251,11 +256,20 @@ bindkey -r "^U"
 bindkey "^U" backward-kill-line
 
 
+open_yazi ()
+{
+  zle -I
+  y
+}
+zle -N open_yazi
+bindkey "^O" open_yazi
+
+
 
 aur_manager() {
     local action packages confirm
 
-    action=$(echo -e "Install\nUpdate\nRemove" | fzf --prompt="Choose an action: " --height=10 --border --reverse)
+    action=$(echo -e "Install\nRemove" | fzf --prompt="Choose an action: " --height=10 --border --reverse)
 
     case "$action" in
         "Install")
@@ -276,10 +290,10 @@ aur_manager() {
             fi
             ;;
         
-        "Update")
-            echo "🔄 Updating all installed packages..."
-            yay -Syu || echo "❌ Update failed!"
-            ;;
+        # "Update")
+        #     echo "🔄 Updating all installed packages..."
+        #     yay -Syu || echo "❌ Update failed!"
+        #     ;;
         
         "Remove")
             packages=$(yay -Qq | fzf --multi --prompt="Select packages to remove: " --height=20 --border --reverse | tr '\n' ' ')
