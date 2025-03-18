@@ -92,8 +92,7 @@ function oo()
 
 
 # Helpful aliases
-# alias  adb='~/Downloads/platform-tools/adb'
-# alias  fastboot='~/Downloads/platform-tools/fastboot'
+alias  lg='lazygit'
 alias  lpd='~/.scripts/manual-duplexer.sh'
 alias  tkw='tmux kill-window -a'
 alias  tks='tmux kill-session -a'
