@@ -19,7 +19,10 @@ set("n", "<leader>ntl", "<CMD>set background=light<CR>", { desc = "Switch to lig
 set("n", "<leader>ntd", "<CMD>set background=dark<CR>", { desc = "Switch to dark mode" })
 set("n", "<leader>tt", "<CMD>term<CR>", { desc = "Switch to dark mode" })
 set("n", "x", '"_x')
+set("n", "g|", "<cmd>vsplit<CR>")
+set("n", "g-", "<cmd>split<CR>")
 
+-- Visual-multi
 local opts = { noremap = true, silent = true }
 
 -- set({ "n", "x" }, "j", "v:count == 0 ? 'gjzz' : 'jzz'", { desc = "Down", expr = true, silent = true })
@@ -55,6 +58,7 @@ vim.keymap.set("n", "gf", function()
 end, { noremap = false, expr = true })
 
 -- Obsidian
+set("n", ",oom", "<cmd>Oil ~/My-Vault/Resources/Medicine/<CR>")
 set("n", "<leader>on", "<CMD>ObsidianNew<CR>")
 set("n", "<leader>ot", "<CMD>ObsidianTemplate<CR>")
 set("n", "<leader>om", "<CMD>ObsidianNewFromTemplate<CR>")
@@ -200,7 +204,7 @@ vim.api.nvim_set_keymap("n", "<leader>uc", [[:s/\<./\u&/g<CR>:nohlsearch<CR>]], 
 --end, { desc = "[P]Insert/update markdown tOC (English)" })
 
 -- File Explorer - Oil
---vim.keymap.set("n", "<leader>e", "<cmd>oil<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "<m-o>", "<cmd>Oil<CR>", { desc = "Open parent directory" })
 vim.keymap.set("n", "<leader>mvs", "<CMD>Markview splitEnable<CR>", { desc = "Markview Split view toggle" })
 vim.keymap.set("n", "<leader>mvh", "<CMD>Markview hybridEnable<CR>", { desc = "Markview Hybrid view toggle" })
 -- vim.keymap.set("n", "<leader>e", function()

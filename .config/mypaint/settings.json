@@ -39,7 +39,7 @@
   "ui.dark_theme_variant": true,
   "ui.rendered_tile_cache_size": 16384,
   "saving.default_format": "openraster",
-  "brushmanager.selected_brush": "classic/marker_small",
+  "brushmanager.selected_brush": "classic/pen",
   "brushmanager.selected_groups": [],
   "frame.color_rgba": [
     0.12,
@@ -61,11 +61,21 @@
           "active_page": -1
         }
       ],
-      "w": 28,
-      "h": 973
+      "w": 27,
+      "h": 348
     },
     "right_sidebar": {
       "groups": [
+        {
+          "tools": [
+            [
+              "MyPaintPaletteTool"
+            ]
+          ],
+          "active_page": 0,
+          "w": 241,
+          "h": 390
+        },
         {
           "tools": [
             [
@@ -74,26 +84,16 @@
             ]
           ],
           "active_page": 0,
-          "w": 242,
-          "h": 351
-        },
-        {
-          "tools": [
-            [
-              "MyPaintPaletteTool"
-            ]
-          ],
-          "active_page": 0,
-          "w": 242,
-          "h": 564
+          "w": 241,
+          "h": 533
         },
         {
           "tools": [],
           "active_page": -1
         }
       ],
-      "w": 242,
-      "h": 929
+      "w": 241,
+      "h": 937
     },
     "floating": [],
     "position": {},
@@ -127,9 +127,13 @@
     "Wayland Pointer:mouse:2": {},
     "Wayland Wheel Scrolling:mouse:2": {},
     "OpenTabletDriver Virtual Artist Tablet:pen:2": {},
-    "OpenTabletDriver Virtual Artist Tablet (Eraser):eraser:2": {}
+    "OpenTabletDriver Virtual Artist Tablet (Eraser):eraser:2": {},
+    "Master pointer for OpenTabletDriver Virtual Artist Tablet:mouse:2": {},
+    "Master pointer for HUION 256C PEN STYLUS:mouse:2": {},
+    "HUION 256C PEN STYLUS:pen:2": {},
+    "HUION 256C PEN STYLUS (Eraser):eraser:2": {}
   },
-  "colors.current": "#ffa812",
+  "colors.current": "#ffdbbc",
   "colors.palette": {
     "name": "MyPaint Default",
     "columns": 7,
@@ -449,18 +453,17 @@
   "ui.file_compat_warning_mild": true,
   "ui.file_compat_warning_severe": true,
   "colors.history": [
-    "#aa6633",
-    "#003153",
-    "#77c679",
-    "#808080",
-    "#ffa811"
+    "#000000",
+    "#ff3621",
+    "#ff3621",
+    "#ff3621",
+    "#ffdbbc"
   ],
   "brush_chooser.default.window_size": [
     256,
     308
   ],
-  "brush_chooser.default.selected_group": "Deevad",
-  "devbrush.last_used": "OpenTabletDriver Virtual Artist Tablet",
+  "brush_chooser.default.selected_group": "Ramon",
   "color_chooser.fast_subset.window_size": [
     282,
     324
@@ -470,5 +473,7 @@
     324
   ],
   "color_chooser.fast_subset.selected_adjuster": "PaletteTool",
-  "color_chooser.default.selected_adjuster": "PaletteTool"
+  "color_chooser.default.selected_adjuster": "PaletteTool",
+  "autorecovery.check_at_startup": true,
+  "devbrush.last_used": "OpenTabletDriver Virtual Artist Tablet"
 }

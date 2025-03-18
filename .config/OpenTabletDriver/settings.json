@@ -47,18 +47,36 @@
       "Filters": [],
       "Bindings": {
         "TipButton": {
-          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Path": "OpenTabletDriver.Desktop.Binding.LinuxArtistMode.LinuxArtistModeButtonBinding",
           "Settings": [
             {
               "Property": "Button",
-              "Value": "Left"
+              "Value": "Pen Tip"
             }
           ],
           "Enable": true
         },
         "PenButtons": [
-          null,
-          null
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "H"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.KeyBinding",
+            "Settings": [
+              {
+                "Property": "Key",
+                "Value": "Z"
+              }
+            ],
+            "Enable": true
+          }
         ],
         "AuxButtons": [
           null,

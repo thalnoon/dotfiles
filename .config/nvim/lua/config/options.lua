@@ -52,6 +52,11 @@ opt.wrap = false -- disable line wrapping
 if vim.g.neovide then
   vim.o.guifont = "JetBrainsMono NFP:h15" -- text below applies for VimScript
   vim.g.neovide_scale_factor = 1.0
+  vim.g.neovide_padding_top = 12
+  vim.g.neovide_padding_bottom = 0
+  vim.g.neovide_padding_right = 8
+  vim.g.neovide_padding_left = 8
+  vim.g.neovide_floating_shadow = false
   local change_scale_factor = function(delta)
     vim.g.neovide_scale_factor = vim.g.neovide_scale_factor * delta
   end

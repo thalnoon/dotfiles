@@ -53,8 +53,8 @@ process-unmapped-keys yes
   ext  (layer-toggle extend) ;; Bind 'ext' to the Extend Layer
   sym  (layer-toggle sym)
   qsym  (layer-toggle qsym)
-  syl (tap-hold-release 200 200 a @sym)
-  qsyl (tap-hold-release 200 200 g @qsym)
+  syl (tap-hold-release 200 200 ' @sym)
+  qsyl (tap-hold-release 200 200 ' @qsym)
   s_ S--
   s{ S-[
   s} S-]
@@ -149,14 +149,14 @@ process-unmapped-keys yes
   )
 
   z (tap-hold-release-keys $tap-time $hold-time (multi z @tap) lctl $left-hand-keys)
-  x (tap-hold-release-keys $tap-time $hold-time (multi x @tap) lalt $left-hand-keys)
+  x (tap-hold-release-keys $tap-time $hold-time (multi x @tap) lmet $left-hand-keys)
   c (tap-hold-release-keys $tap-time $hold-time (multi c @tap) lsft $left-hand-keys)
-  v (tap-hold-release-keys $tap-time $hold-time (multi v @tap) lmet $left-hand-keys)
+  v (tap-hold-release-keys $tap-time $hold-time (multi v @tap) lalt $left-hand-keys)
   ;;shif (tap-hold-release $tap-time $hold-time (multi esc @tap) @csk)
   ;;spc (tap-hold-release-keys $tap-time $hold-time (multi spc @tap) (layer-toggle sym) $full-hand-keys)
-  . (tap-hold-release-keys $tap-time $hold-time (multi . @tap) ralt $right-hand-keys)
+  . (tap-hold-release-keys $tap-time $hold-time (multi . @tap) rmet $right-hand-keys)
   , (tap-hold-release-keys $tap-time $hold-time (multi , @tap) rsft $right-hand-keys)
-  m (tap-hold-release-keys $tap-time $hold-time (multi m @tap) rmet $right-hand-keys)
+  m (tap-hold-release-keys $tap-time $hold-time (multi m @tap) ralt $right-hand-keys)
   / (tap-hold-release-keys $tap-time $hold-time (multi / @tap) rctl $right-hand-keys)
 )
 
@@ -169,14 +169,14 @@ process-unmapped-keys yes
   
 
   zc (tap-hold-release-keys $tap-time $hold-time (multi z @tapc) lctl $left-hand-keys)
-  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lalt $left-hand-keys)
+  xc (tap-hold-release-keys $tap-time $hold-time (multi x @tapc) lmet $left-hand-keys)
   cc (tap-hold-release-keys $tap-time $hold-time (multi c @tapc) lsft $left-hand-keys)
-  vc (tap-hold-release-keys $tap-time $hold-time (multi v @tapc) lmet $left-hand-keys)
+  dc (tap-hold-release-keys $tap-time $hold-time (multi d @tapc) lalt $left-hand-keys)
 
   ;;shifc (tap-hold-release $tap-time $hold-time (multi esc @tapc) @csk)
-  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) ralt $right-hand-keys)
+  .c (tap-hold-release-keys $tap-time $hold-time (multi . @tapc) rmet $right-hand-keys)
   ,c (tap-hold-release-keys $tap-time $hold-time (multi , @tapc) rsft $right-hand-keys)
-  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) rmet $right-hand-keys)
+  hc (tap-hold-release-keys $tap-time $hold-time (multi h @tapc) ralt $right-hand-keys)
   /c (tap-hold-release-keys $tap-time $hold-time (multi / @tapc) rctl $right-hand-keys)
 )
 
@@ -223,7 +223,7 @@ process-unmapped-keys yes
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    @qanm    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  @ext a    s    d    f    @qsyl    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+  @ext a    s    d    f   g   h    j    k    l    ;    @qsyl   \                          kp4  kp5  kp6
   lsft 102d @z    @x    @c    @v    b    n    @m    @,    @.    @/    rsft            up         kp1  kp2  kp3  kprt
   lctl lmet lalt           spc                 @ext rmet cmp  rctl       left down rght  kp0  kp.
 )
@@ -231,9 +231,9 @@ process-unmapped-keys yes
 (deflayer colemak
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
-  tab  q    w    @anm    p    g    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  @ext @syl    r    s    t    d    m    n    e    i    o    '    \                          kp4  kp5  kp6
-  @osr / @zc    @xc    @cc    @vc    b    k    @hc    @,c    @.c    @/c    @osr            up         kp1  kp2  kp3  kprt
+  tab  q    w    @anm    p    k    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  @ext a    r    s    t    g    m    n    e    i    o    @syl    \                          kp4  kp5  kp6 
+  @osr / @zc    @xc    @cc    @dc    b    v    @hc    @,c    @.c    @/c    @osr            up         kp1  kp2  kp3  kprt
   lctl lmet lalt           spc                 @ext @oss cmp  rctl       left down rght  kp0  kp.
 )
 ;;(deflayer qwerty
@@ -248,16 +248,16 @@ process-unmapped-keys yes
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
   tab  q    w    e    r    t    y    u    i    o    p    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  f24 a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
+  f20 a    s    d    f    g    h    j    k    l    ;    '    \                          kp4  kp5  kp6
   lsft 102d z    x    c    v    b    n    m    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
   lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
 )
 (deflayer colemak_nomods
   esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12        ssrq slck pause
   grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc  ins  home pgup  nlck kp/  kp*  kp-
-  tab  q    w    f    p    g    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
-  f24 a    r    s    t    d    m    n    e    i    o    '    \                          kp4  kp5  kp6
-  lsft / z    x    c    v    b    k    h    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
+  tab  q    w    f    p    k    j    l    u    y    ;    [    ]    ret   del  end  pgdn  kp7  kp8  kp9  kp+
+  f20 a    r    s    t    g    m    n    e    i    o    '    \                          kp4  kp5  kp6
+  lsft / z    x    c    d    b    v    h    ,    .    /    rsft            up         kp1  kp2  kp3  kprt
   lctl lmet lalt           spc                 ralt rmet cmp  rctl       left down rght  kp0  kp.
 )
 
@@ -310,17 +310,17 @@ process-unmapped-keys yes
 (deflayer sym
   _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    @sau    @sad    _    _    _    _     _    _    _    _    _    _    _
-  _    _    _    _    _    _    @s&  @s!  @s@  @s#  @s$  _    _                         _    _    _
-  _    _    _    _    _    _    _    @s~  @s^  @s%  @s*  @l_qw   _    _    _               _         _    _
+  _    _    @s~    @sau    @sad    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
+  _    @s!    @s@    @s#    @s$    @s&    _  _  _  _  _  _    _                         _    _    _
+  _    _    @l_qw    @s*    @s%    @s^    _    _  _  _  _  _   _    _    _               _         _    _
   _    _    _              _                   _    _    _    _          _    _    _    _    _
 )
 
 (deflayer qsym
   _    _    _    _    _    _    _    _    _    _    _    _    _          _    _    _
   _    _    _    _    _    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
-  _    _    _    _    _    _    _    _    @sau    @sad    _    _    _    _     _    _    _    _    _    _    _
-  _    _    _    _    _    _    @s&  @s!  @s@  @s#  @s$  _    _                         _    _    _
-  _    _    _    _    _    _    _    @s~  @s^  @s%  @s*  @l_dh   _    _    _               _         _    _
+  _    _    @s~    @sau    @sad    _    _    _    _    _    _    _    _    _     _    _    _    _    _    _    _
+  _    @s!    @s@    @s#    @s$    @s&    _  _  _  _  _  _    _                         _    _    _
+  _    _    @l_dh    @s*    @s%    @s^    _    _  _  _  _  _   _    _    _               _         _    _
   _    _    _              _                   _    _    _    _          _    _    _    _    _
 )

@@ -109,7 +109,7 @@ button selected {
 // Elements //
 element {
     enabled:                     true;
-    spacing:                     0em;
+    spacing:                     1em;
     padding:                     0.5em;
     cursor:                      pointer;
     background-color:            transparent;

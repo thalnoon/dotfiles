@@ -1,5 +1,5 @@
 [Added Associations]
-text/plain=org.xfce.mousepad.desktop;
+text/plain=org.xfce.mousepad.desktop;neovide.desktop;
 x-scheme-handler/http=zen-browser.desktop;zen-beta.desktop;zen.desktop;
 x-scheme-handler/https=zen-browser.desktop;zen-beta.desktop;zen.desktop;
 x-scheme-handler/chrome=zen-browser.desktop;zen-beta.desktop;zen.desktop;
@@ -11,6 +11,7 @@ application/xhtml+xml=zen-browser.desktop;zen-beta.desktop;zen.desktop;
 application/x-extension-xhtml=zen-browser.desktop;zen-beta.desktop;zen.desktop;
 application/x-extension-xht=zen-browser.desktop;zen-beta.desktop;zen.desktop;
 inode/blockdevice=org.kde.dolphin.desktop;
+application/x-shellscript=neovide.desktop;
 
 [Default Applications]
 x-scheme-handler/http=zen.desktop
@@ -31,3 +32,6 @@ image/jpg=vimiv.desktop
 image/png=vimiv.desktop
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
 inode/directory=org.kde.dolphin.desktop
+application/x-shellscript=neovide.desktop
+text/=neovide.desktop
+text/plain=neovide.desktop

@@ -3,6 +3,14 @@ return {
   ---@type snacks.Config
   keys = {
     { ",c", LazyVim.pick.config_files(), desc = "Find Config File" },
+    -- { ",c", LazyVim.pick.picker({ cwd = "~/dotfiles/.config/nvim" }), desc = "Find Config File" },
+    -- {
+    --   ",c",
+    --   function()
+    --     Snacks.picker.files({ cwd = "~/dotfiles/.config/nvim/" })
+    --   end,
+    --   desc = "Find Config File",
+    -- },
     {
       ",,",
       LazyVim.pick("files"),
@@ -59,12 +67,13 @@ return {
     },
     lazygit = {},
     terminal = {},
+    dashboard = {
+      enabled = true,
+    },
     picker = {
       layout = {
         cycle = false,
-        preset = function()
-          return vim.o.columns >= 120 and "ivy" or "vertical"
-        end,
+        preset = "ivy",
       },
       matcher = {
         frequency = true,
